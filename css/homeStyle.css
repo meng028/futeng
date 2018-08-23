@@ -12,12 +12,13 @@ section>.section_h{
 }
 .section_content>div{
     margin:0 auto;
-    width:70%;
+    width:1200px;
     height:600px;
-    background:pink;
+    background:#FFFFFF;
+    position: relative;
 }
 section>.section_table{
-    width:70%;
+    width:1200px;
     height:100px;
     margin:0 auto;
     display: flex;
@@ -26,7 +27,7 @@ section>.section_table{
 }
 section>.section_table>dl{
     flex:1;
-    background:papayawhip;
+    background:#F7F1F1;
     display: flex;
     border-right:2px solid #fff;
     align-items: center;
@@ -36,6 +37,57 @@ section>.section_table>dl>dt,dd{
 }
 section>.section_table>dl>dt{
     text-align: center;
+}
+.tab{
+    width:600px;
+    height:400px;
+}
+.tab-menu{
+    height:50px;
+    width:700px;
+}
+.tab-menu ul{
+    list-style:none;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F9F0F1;
+    user-select:none;// 禁止文本选中
+}
+.tab-menu li{
+    width: 240px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+}
+.tab-box div{
+    width:600px;
+    height:300px;
+    display:none;
+}
+/* 让第一个框显示出来 */
+.tab-box div:first-Child{
+    display:block;
+}
+/* 改变选项卡选中时候的样式 */
+.change{
+    background:#BE1D22;
+    color: #FFFFFF;
+}
+.left_btn{
+    position: absolute;
+    top: 50%;
+    left: -90px;
+    cursor:pointer;
+}
+.right_btn {
+    position: absolute;
+    top: 50%;
+    right: -90px;
+    cursor: pointer;
 }
 
 
