@@ -1,13 +1,13 @@
 header{
     width:1200px;
-    height:112px;
-    line-height:112px;
+    height:115px;
+    line-height:115px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
 }
 .ul_center{
-    padding-top:30px;
+    padding-top:25px;
 }
 header>ul{
     width:45%;
@@ -22,7 +22,6 @@ header>ul>li>img{
 .tab_list>li{
     text-align: right;
 }
-
 header>ul>li>div{
     line-height:25px;
 }
