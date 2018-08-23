@@ -1,0 +1,63 @@
+section{
+    width:70%;
+    padding:70px 15%;
+    display: flex;
+}
+section>.section_left{
+    flex:1;
+    background: #EEEFF3;
+}
+section>.section_left>.section_table{
+    margin-top: 20px;
+
+}
+section>.section_left>.section_table>li{
+    height:30px;
+    line-height: 30px;
+    padding-left: 30px;
+    border-bottom:1px solid #fff;
+}
+section>.section_right{
+    flex:4;
+    padding-left: 50px;
+}
+section>.section_right>div>h3{
+    padding:10px 0;
+    font-size: 20px;
+}
+section>.section_right>div>dl{
+    display: flex;
+    margin-bottom:50px;
+}
+section>.section_right>div>dl>dt{
+    flex:1;
+}
+section>.section_right>div>dl>dd{
+    flex:1;
+    padding:35px 0;
+}
+section>.section_right>div>dl>dd>h5{
+    margin-bottom:20px;
+}
+.section_right_tit{
+    border-bottom: 1px solid red;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+ol>li{
+    line-height: 2;
+}
+ol>li>h5{
+    font-size: 16px;
+}
+h3{
+    font-size:16px;
+    line-height: 2;
+}
+.section_right>div>ol>li{
+    margin-bottom:20px;
+}
+.talents_img{
+    text-align: center;
+    margin-top:20px;
+}
