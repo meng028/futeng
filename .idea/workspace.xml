@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3022010-d40e-41e0-967f-e31db716bf42" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/aboutTheCompany.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/aboutTheCompanyStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/leftSidebarStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/enterpriseCultureStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/enterpriseCultureStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/head_foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/head_foot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/head_foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/headerAndFooterStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enterpriseCultureView.html" beforeDir="false" afterPath="$PROJECT_DIR$/enterpriseCultureView.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homeView.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tab_change.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tab_change.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,22 +28,14 @@
       <file leaf-file-name="homeView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+            <state relative-caret-position="318">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
               <folding>
                 <element signature="n#dl#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#dl#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#dl#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab_change.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/tab_change.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -46,21 +43,63 @@
       <file leaf-file-name="enterpriseCultureView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enterpriseCultureView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="277" column="50" selection-start-line="277" selection-start-column="50" selection-end-line="277" selection-end-column="50" />
+            <state relative-caret-position="828">
+              <caret line="173" column="29" lean-forward="true" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
               <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head_foot.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/head_foot.css">
+      <file leaf-file-name="enterpriseCultureStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/enterpriseCultureStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+            <state relative-caret-position="230">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab_change.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/tab_change.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutTheCompany.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aboutTheCompany.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutTheCompanyStyle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/aboutTheCompanyStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leftSidebarStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/leftSidebarStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -77,8 +116,22 @@
       <find>section_h</find>
       <find>section_table</find>
       <find>padding-bo</find>
-      <find>section_right</find>
       <find>fff</find>
+      <find>re'd</find>
+      <find>section_left</find>
+      <find>span</find>
+      <find>tit</find>
+      <find>h3</find>
+      <find>h5</find>
+      <find>section_right_tit</find>
+      <find>a</find>
+      <find>tab_list</find>
+      <find>section_right</find>
+      <find>ol&gt;li</find>
+      <find>mb</find>
+      <find>section_right_service</find>
+      <find>section_right_div</find>
+      <find>section_right_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,11 +146,15 @@
         <option value="$PROJECT_DIR$/tab.html" />
         <option value="$PROJECT_DIR$/js/tab.js" />
         <option value="$PROJECT_DIR$/css/homeStyle.css" />
-        <option value="$PROJECT_DIR$/js/tab_change.js" />
+        <option value="$PROJECT_DIR$/css/head_foot.css" />
         <option value="$PROJECT_DIR$/css/enterpriseCultureStyle.css" />
         <option value="$PROJECT_DIR$/homeView.html" />
+        <option value="$PROJECT_DIR$/js/tab_change.js" />
         <option value="$PROJECT_DIR$/enterpriseCultureView.html" />
-        <option value="$PROJECT_DIR$/css/head_foot.css" />
+        <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/css/aboutTheCompanyStyle.css" />
+        <option value="$PROJECT_DIR$/css/leftSidebarStyle.css" />
+        <option value="$PROJECT_DIR$/aboutTheCompany.html" />
       </list>
     </option>
   </component>
@@ -108,10 +165,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="285" />
-    <option name="y" value="-20" />
-    <option name="width" value="1394" />
-    <option name="height" value="835" />
+    <option name="x" value="428" />
+    <option name="y" value="-18" />
+    <option name="width" value="1203" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534753286169</updated>
       <workItem from="1534753287686" duration="55536000" />
-      <workItem from="1534993364278" duration="2356000" />
+      <workItem from="1534993364278" duration="25658000" />
     </task>
     <task id="LOCAL-00001" summary="企业文化">
       <created>1534987464561</created>
@@ -190,11 +247,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534987464562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="header footer更改">
+      <created>1534995841196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534995841196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57892000" />
+    <option name="totallyTimeSpent" value="81194000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -206,17 +270,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="547" y="18" width="1394" height="835" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18436578" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2944206" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32822758" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.23076923" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.23076923" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -228,6 +291,26 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32932165" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18387777" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32822758" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.23076923" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32932165" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -263,7 +346,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="企业文化" />
-    <option name="LAST_COMMIT_MESSAGE" value="企业文化" />
+    <MESSAGE value="header footer更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="header footer更改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/homeView.html">
@@ -274,6 +358,7 @@
             <element signature="n#dl#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#dl#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#dl#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -290,8 +375,10 @@
         <state relative-caret-position="1495">
           <caret line="155" column="21" lean-forward="true" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
           <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -303,7 +390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/head_foot.css">
+    <entry file="file://$PROJECT_DIR$/css/headerAndFooterStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1794">
           <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
@@ -311,18 +398,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hf_fix.css" />
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-1.12.4.js" />
     <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -336,52 +419,87 @@
     <entry file="file://$PROJECT_DIR$/js/tab.js" />
     <entry file="file://$PROJECT_DIR$/css/homeStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
+        <state relative-caret-position="943">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/headerAndFooterStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1507">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="n#dl#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#dl#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#dl#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="188" column="27" lean-forward="true" selection-start-line="188" selection-start-column="27" selection-end-line="188" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tab_change.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enterpriseCultureView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="173" column="29" lean-forward="true" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/enterpriseCultureStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homeView.html">
+    <entry file="file://$PROJECT_DIR$/css/leftSidebarStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-          <folding>
-            <element signature="n#dl#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#dl#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#dl#3;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="529">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enterpriseCultureView.html">
+    <entry file="file://$PROJECT_DIR$/aboutTheCompany.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="277" column="50" selection-start-line="277" selection-start-column="50" selection-end-line="277" selection-end-column="50" />
+        <state relative-caret-position="448">
+          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
           <folding>
             <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/head_foot.css">
+    <entry file="file://$PROJECT_DIR$/css/aboutTheCompanyStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+        <state relative-caret-position="345">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>

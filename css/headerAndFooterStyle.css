@@ -23,7 +23,10 @@ header>ul>li>img{
 .tab_list>li{
     text-align: right;
 }
-
+.tab_list>li>a{
+    display: inline;
+    padding-bottom: 15px;
+}
 header>ul>li>div{
     line-height:25px;
 }
@@ -98,5 +101,10 @@ footer{
     padding-right:5px;
 }
 .active{
-    background:pink;
+    background:#be1e21;
+    color:#FFFFFF;
+}
+.active_{
+    color:#be1e21;
+    border-bottom:1px solid #be1e21;
 }

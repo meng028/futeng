@@ -1,48 +1,40 @@
-section{
-    width:1200px;
-    margin:0 auto;
-    display: flex;
-}
-section>.section_left{
-    flex:1;
-    background: #EEEFF3;
-}
-section>.section_left>.section_table{
-    margin-top: 20px;
-
-}
-section>.section_left>.section_table>li{
-    height:30px;
-    line-height: 30px;
-    padding-left: 30px;
-    border-bottom:1px solid #fff;
-}
-section>.section_right{
-    flex:4;
-    padding-left: 50px;
-}
 section>.section_right>div>h3{
     padding:10px 0;
-    font-size: 20px;
+    font-size: 24px;
 }
 section>.section_right>div>dl{
+    height:240px;
     display: flex;
-    margin-bottom:50px;
+    margin-bottom:68px;
 }
 section>.section_right>div>dl>dt{
     flex:1;
 }
 section>.section_right>div>dl>dd{
     flex:1;
-    padding:35px 0;
+}
+.pl70{
+    padding:15px 0 0 70px;
+}
+.pr40{
+    padding:15px 40px 0 0;
 }
 section>.section_right>div>dl>dd>h5{
-    margin-bottom:20px;
+    margin-bottom:64px;
 }
 .section_right_tit{
-    border-bottom: 1px solid red;
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 5px;
+    padding-right:20px;
+    border-bottom: 1px solid #be1e21;
+}
+section>.section_right>div>dl>dd>h6{
+    font-size: 18px;
+    color:#333333;
+}
+section>.section_right>div>dl>dd>ol{
+    font-size: 14px;
+    color:#777777;
 }
 ol>li{
     line-height: 2;
@@ -55,9 +47,9 @@ h3{
     line-height: 2;
 }
 .section_right>div>ol>li{
-    margin-bottom:20px;
+    margin-bottom:60px;
 }
 .talents_img{
     text-align: center;
-    margin-top:20px;
+    margin-top:40px;
 }
