@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3022010-d40e-41e0-967f-e31db716bf42" name="Default" comment="">
+    <list default="true" id="e3022010-d40e-41e0-967f-e31db716bf42" name="Default" comment="交流合作 commit">
+      <change beforePath="$PROJECT_DIR$/.idea/futeng.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutCompanyView.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutCompanyView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communicationAndCooperationView.html" beforeDir="false" afterPath="$PROJECT_DIR$/communicationAndCooperationView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aboutCompanyStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutCompanyStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/communicationAndCooperationStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/communicationAndCooperationStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enterpriseCultureView.html" beforeDir="false" afterPath="$PROJECT_DIR$/enterpriseCultureView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeView.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsTrendsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsTrendsView.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +22,8 @@
       <file leaf-file-name="communicationAndCooperationView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/communicationAndCooperationView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="856">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="54" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -39,8 +34,8 @@
       <file leaf-file-name="aboutCompanyView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aboutCompanyView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="322">
+              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -81,11 +76,29 @@
       <file leaf-file-name="newsTrendsView.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newsTrendsView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="248">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="231" column="10" selection-start-line="231" selection-start-column="10" selection-end-line="231" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/head.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -151,12 +164,12 @@
         <option value="$PROJECT_DIR$/css/newsTrendsStyle.css" />
         <option value="$PROJECT_DIR$/css/enterpriseCultureStyle.css" />
         <option value="$PROJECT_DIR$/css/aboutCompanyStyle.css" />
-        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/css/communicationAndCooperationStyle.css" />
         <option value="$PROJECT_DIR$/communicationAndCooperationView.html" />
         <option value="$PROJECT_DIR$/aboutCompanyView.html" />
         <option value="$PROJECT_DIR$/enterpriseCultureView.html" />
         <option value="$PROJECT_DIR$/homeView.html" />
+        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/newsTrendsView.html" />
       </list>
     </option>
@@ -168,8 +181,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="637" />
-    <option name="y" value="-17" />
+    <option name="x" value="474" />
+    <option name="y" value="-9" />
     <option name="width" value="995" />
     <option name="height" value="710" />
   </component>
@@ -185,11 +198,6 @@
             <path>
               <item name="futeng" type="b2602c69:ProjectViewProjectNode" />
               <item name="futeng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="futeng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="futeng" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +245,7 @@
       <updated>1534753286169</updated>
       <workItem from="1534753287686" duration="55536000" />
       <workItem from="1534993364278" duration="36689000" />
-      <workItem from="1535349731078" duration="12277000" />
+      <workItem from="1535349731078" duration="14370000" />
     </task>
     <task id="LOCAL-00001" summary="企业文化">
       <created>1534987464561</created>
@@ -330,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535361067286</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="交流合作 commit">
+      <created>1535364776829</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1535364776829</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104502000" />
+    <option name="totallyTimeSpent" value="106595000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -346,10 +361,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="925" y="343" width="995" height="710" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17386723" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3448276" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32719395" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -427,7 +442,8 @@
     <MESSAGE value="关于富腾页面" />
     <MESSAGE value="企业文化" />
     <MESSAGE value="news完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="news完善" />
+    <MESSAGE value="交流合作 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="交流合作 commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/communicationAndCooperationView.html">
@@ -513,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/head.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/SidebarStyle.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -565,38 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/communicationAndCooperationStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communicationAndCooperationView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="40" column="54" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="54" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutCompanyView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,6 +590,20 @@
             <element signature="n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="231" column="10" selection-start-line="231" selection-start-column="10" selection-end-line="231" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/head.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -625,10 +620,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aboutCompanyView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communicationAndCooperationView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="54" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/newsTrendsView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="248">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
