@@ -55,9 +55,10 @@
 .Manage_team>div>dl>dt{
     width:150px;
     height:180px;
-    background:paleturquoise;
+    background:pink;
 }
 .Manage_team>div>dl>dd{
+    flex:1;
     padding:0 30px;
 }
 .Manage_team>div>dl>dd>h6{
