@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3022010-d40e-41e0-967f-e31db716bf42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aboutTheCompanyStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutTheCompanyStyle.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="aboutTheCompanyStyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/aboutTheCompanyStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+            <state relative-caret-position="173">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -121,8 +120,8 @@
       <find>ol&gt;li</find>
       <find>mb</find>
       <find>section_right_div</find>
-      <find>section_right_service</find>
       <find>section_right_</find>
+      <find>section_right_service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,10 +154,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="970" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-89" />
+    <option name="y" value="-14" />
     <option name="width" value="1257" />
-    <option name="height" value="1047" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -228,7 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534753286169</updated>
       <workItem from="1534753287686" duration="55536000" />
-      <workItem from="1534993364278" duration="28244000" />
+      <workItem from="1534993364278" duration="28504000" />
     </task>
     <task id="LOCAL-00001" summary="企业文化">
       <created>1534987464561</created>
@@ -258,11 +258,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535333033893</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="关于富腾页面">
+      <created>1535333160668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535333160668</updated>
+    </task>
+    <task id="LOCAL-00006" summary="关于富腾页面">
+      <created>1535333316153</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535333316153</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83780000" />
+    <option name="totallyTimeSpent" value="84040000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -274,17 +288,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="970" y="0" width="1257" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26579162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.170706" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32822758" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.37636763" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.3726977" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.3726977" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,7 +366,8 @@
     <MESSAGE value="企业文化" />
     <MESSAGE value="header footer更改" />
     <MESSAGE value="关于富腾页面-" />
-    <option name="LAST_COMMIT_MESSAGE" value="关于富腾页面-" />
+    <MESSAGE value="关于富腾页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于富腾页面" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/homeView.html">
@@ -487,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/leftSidebarStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/enterpriseCultureStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -501,10 +508,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/leftSidebarStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/aboutTheCompanyStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        <state relative-caret-position="173">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
