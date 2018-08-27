@@ -30,6 +30,11 @@ header>ul>li>img{
 header>ul>li>div{
     line-height:25px;
 }
+section{
+    width:1200px;
+    margin:0 auto;
+    padding:60px 0;
+}
 footer{
     width:100%;
     height:350px;
