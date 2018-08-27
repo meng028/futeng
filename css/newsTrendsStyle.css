@@ -1,0 +1,21 @@
+h3{
+    font-size:20px;
+    color:#333333;
+    margin-bottom: 48px;
+}
+h3>span{
+    padding-bottom:14px;
+    border-bottom:2px solid #be1e21;
+}
+.news_trends_container{
+    line-height: 2.5;
+    font-size: 16px;
+    color: #666666;
+}
+.news_trends_item{
+    display: flex;
+    justify-content: space-between;
+}
+.news_trends_item>span{
+
+}

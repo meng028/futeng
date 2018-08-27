@@ -1,0 +1,108 @@
+.section_right_container>h3{
+    font-size:20px;
+    color:#333333;
+    margin-bottom: 48px;
+}
+.section_right_container>h3>span{
+    padding-bottom:14px;
+    border-bottom:2px solid #be1e21;
+}
+.section_right_content{
+    font-size: 16px;
+    color:#777777;
+    line-height: 2;
+}
+.section_right_content>.section_right_content_b{
+    color:#333333;
+}
+.section_right_service_container>h6{
+    font-size: 16px;
+    color: #be1e21;
+    margin-bottom: 80px;
+}
+.section_right_service>div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section_right_service{
+    width:100%;
+    display: flex;
+}
+.section_right_service_pic{
+    width:72px;
+    height:72px;
+}
+.section_right_service_pic img{
+    width:72px;
+    height:72px;
+}
+.section_right_service_center{
+    margin-top:18px;
+    margin-bottom:10px;
+    font-size: 16px;
+    color:#333333;
+}
+.Manage_team>div>dl{
+    width:100%;
+    height:180px;
+    display: flex;
+    background: #f9f9f9;
+    margin-bottom:30px;
+}
+.Manage_team>div>dl>dt{
+    width:150px;
+    height:180px;
+    background:paleturquoise;
+}
+.Manage_team>div>dl>dd{
+    padding:0 30px;
+}
+.Manage_team>div>dl>dd>h6{
+    font-size: 18px;
+    color:#333333;
+    margin:20px 0;
+}
+.Manage_team_content{
+    font-size:14px;
+    color:#777777;
+}
+
+.social_recruitment .social_recruitment_item{
+    width:100%;
+    /*height:180px;*/
+    padding:60px 0 52px 0;
+    /*background: #f9f9f9;*/
+    border-bottom:1px solid #EEEFF3;
+}
+.social_recruitment_item_tit{
+    font-size: 20px;
+    color:#333333;
+    margin-bottom:28px;
+}
+.social_recruitment_item_content{
+    font-size: 16px;
+    color:#777777;
+    display: flex;
+    justify-content: space-between;
+}
+.social_recruitment_item_content button{
+    width:110px;
+    height:36px;
+    background: #be1e21;
+    font-size:16px;
+    color:#FFFFFF;
+}
+.clr{
+    color:#be1e21;
+}
+
+
+
+
+
+
+
+

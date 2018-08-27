@@ -1,0 +1,34 @@
+section{
+    border:2px solid #e6e5e4;
+}
+.wealth_town_title{
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.wealth_town_title>div{
+    font-size: 14px;
+    margin-top:20px;
+}
+.wealth_town_content_item{
+    font-size: 16px;
+    line-height: 2;
+    color: #777777;
+}
+.wealth_town_content_item>h5{
+    font-size: 18px;
+    color: #555555;
+}
+.wealth_town_content_item>div{
+    margin-bottom: 30px;
+}
+.wealth_town_content_item_pic{
+    padding:40px 0;
+    text-align:center;
+}
+.wealth_town_content_item_pic>img{
+    display: inline-block;
+    width:920px;
+    height:400px;
+}
+
