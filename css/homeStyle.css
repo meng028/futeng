@@ -331,3 +331,59 @@ aside>ul li{
     bottom: 60px;
     left: 0;
 }
+.cooperation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+.map{
+    width: 560px;
+    height: 650px;
+    background-color: pink;
+}
+.contact_way{
+    width: 465px;
+    height: 650px;
+}
+.contact_way h3{
+    font-size: 24px;
+    color: #333;
+}
+.contact_way h3 span{
+    font-size: 14px;
+    color: #777;
+}
+.fill_in{
+    display: flex;
+    flex-direction: column;
+}
+.fill_in input{
+    height: 50px;
+}
+.fill_in input,
+.fill_in textarea
+{
+    border:1px solid #E3E3E3;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.fill_in textarea{
+    height: 165px;
+    line-height: 50px;
+}
+.submit_message{
+    width: 170px;
+    height: 45px;
+    background-color: #1f36a3;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.way li{
+    margin-top: 23px;
+}
+.way img{
+    margin: 4px 10px 0 0;
+    float: left;
+}
