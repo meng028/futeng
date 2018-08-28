@@ -1,6 +1,11 @@
 .section_row{
     display: flex;
 }
+section{
+    width:1200px;
+    margin:0 auto;
+    padding:60px 0;
+}
 section>.section_left{
     width: 222px;
     background: #f9f9f9;

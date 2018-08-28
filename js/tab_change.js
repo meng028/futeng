@@ -2,12 +2,6 @@
 for (let i = 0; i < $(".section_content div").length-1 ; i++ ) {
     $(".section_content>div").eq(i+1).hide()
 }
-$(".section_table .content").click(function(){
-    $(".section_table .content").eq(0).addClass("active").siblings().removeClass("active");
-    $(".section_content>div").hide().eq($(this).index()).show();
-});
-
-
 
 let _index=0;
 $(".tab-menu>li").eq(0).addClass("change").siblings().removeClass("change");
