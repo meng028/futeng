@@ -297,3 +297,37 @@ aside>ul li{
 .blue_bgm .top_view i{
     color: #A7B1DB;
 }
+.planning_content{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.character{
+    width: 510px;
+    margin-right: 42px;
+}
+.character li{
+    font-size: 14px;
+    padding-bottom: 35px;
+    color: #525252;
+}
+.pictures_show{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+.ground_floor{
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+    float: right;
+}
+.top_floor {
+    width: 180px;
+    height: 180px;
+    background-color: pink;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
