@@ -265,4 +265,35 @@ aside>ul li{
     display: inline-block;
     padding-top: 20px;
 }
-
+.main_details{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.main_details_top,
+.main_details_bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_details_top li,
+.main_details_bottom li
+{
+    width: 342px;
+    height: 208px;
+    background-color: wheat;
+    margin-top: 20px;
+}
+.blue_bgm{
+    background-color: #2A40A8;
+}
+.blue_bgm .top_view h3{
+    color: #fff;
+}
+.blue_bgm .top_view p{
+    color: #DADDEF;
+}
+.blue_bgm .top_view i{
+    color: #A7B1DB;
+}
