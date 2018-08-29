@@ -76,6 +76,10 @@ footer{
     height:60px;
     background-color: #fff;
 }
+.foot_right>dl>dt>img{
+    width:60px;
+    height:60px;
+}
 .foot_right>dl>dd{
     margin-top:10px;
 }
