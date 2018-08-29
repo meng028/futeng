@@ -24,7 +24,10 @@ $(".section_table li").click(function(){
     $(".section_right_container").hide().eq($(this).index()).show();
 });
 
-
-$('.tab_list li').click(function () {
-    $(".tab_list li a").eq($(this).index()).addClass("active_").siblings().removeClass("active_");
+// 二级
+$(".table_change_content").hide().eq(0).show();
+$(".table_change:first").addClass("active");
+$(".table_change").click(function(){
+    $(".table_change").eq($(this).index()).addClass("active").siblings().removeClass("active");
+    $(".table_change_content").hide().eq($(this).index()).show();
 });
