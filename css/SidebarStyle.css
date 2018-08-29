@@ -1,27 +1,29 @@
-.section_row{
-    display: flex;
-}
+
 section{
     width:1200px;
     margin:0 auto;
     padding:60px 0;
 }
-section>.section_left{
+.section_row{
+    width:1200px;
+    display: flex;
+}
+.section_row>.section_left{
     width: 222px;
     background: #f9f9f9;
     color:#be1e21;
     font-size:16px;
 }
-section>.section_left>.section_table{
+.section_row>.section_left>.section_table{
     margin-top: 60px;
 }
-section>.section_left>.section_table>li{
+.section_row>.section_left>.section_table>li{
     height:42px;
     line-height: 42px;
     padding-left: 30px;
     border-bottom:1px solid #fff;
 }
-section>.section_right{
+.section_row>.section_right{
     flex:1;
     padding-left: 60px;
 }

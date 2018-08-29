@@ -1,0 +1,19 @@
+section{
+    width:1200px;
+    padding-top:24px;
+    padding-bottom:60px;
+    margin:0 auto;
+}
+.hierarchy_title{
+    font-size: 14px;
+    color:#777777;
+    margin-bottom:54px;
+}
+.hierarchy_title img{
+    width:14px;
+    height:14px;
+    padding-right:5px;
+}
+.clblack{
+    color:#333333;
+}
