@@ -39,7 +39,12 @@ button{
     background: #eeeded;
 }
 
-
+.table_change_left_container{
+    border:1px solid #777777;
+}
+.table_change_left_container h5{
+    font-size: 18px;
+}
 
 
 

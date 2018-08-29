@@ -14,9 +14,6 @@ section{
     color:#be1e21;
     font-size:16px;
 }
-.section_row>.section_left>.section_table{
-    margin-top: 60px;
-}
 .section_row>.section_left>.section_table>li{
     height:42px;
     line-height: 42px;

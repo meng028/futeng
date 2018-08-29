@@ -1,0 +1,33 @@
+.section_left_tit{
+    font-size: 18px;
+    color:#000000;
+    width: 100%;
+    height:60px;
+    line-height:60px;
+    padding-left: 30px;
+}
+.treasure_manage>h3{
+    font-size: 20px;
+    color:#010000;
+}
+.treasure_manage>ol{
+    margin-top:46px;
+}
+.treasure_manage>ol>li{
+    margin-bottom:56px;
+}
+.treasure_manage>ol>li>h5{
+    font-size: 18px;
+    color:#1f36a3;
+}
+.treasure_manage>ol>li>p{
+    font-size: 16px;
+    color:#777777;
+}
+.treasure_manage>ol>li>.treasure_manage_into{
+    color:#333333;
+    margin-top:24px;
+    margin-bottom:16px;
+}
+
+
