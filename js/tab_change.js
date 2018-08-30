@@ -1,42 +1,55 @@
-let _index=0;
-$(".tab-menu>li").eq(0).addClass("change").siblings().removeClass("change");
-$(".tab-menu li").click(function(){
-    _index = $(this).index();// 通过 .index()方法获取元素下标，从0开始，赋值给某个变量
-    numFun()
-});
-$('.right_btn').click(function(){
-    _index++;
-    console.log('_index ',_index);
-    console.log($(".active_tab li").length)
-    if( _index >= $(".active_tab li").length){
-        _index=0;
-    }
-    numFun()
-});
-$('.left_btn').click(function(){
-    _index--;
-    if( _index <= -1 ){
-        _index=$(".active_tab li").length-1 ;
-    }
-    numFun()
-});
 
-function numFun(){
-    $(".tab-box>div").hide(); // 让内容框的第 _index 个显示出来，其他的被隐藏
-    $('.active_box div').eq(_index).show();
-    $(".active_tab li").eq(_index).addClass("change").siblings().removeClass("change"); // 改变选中时候的选项框的样式，移除其他几个选项的样式
-    // 第index个选项卡的内容显示
-    $('.details').eq(_index).show();
-}
+let firstIndex=0
+let secondIndex=0
 
-$(".section_table .content").click(function(){
-    _index=0;
-    for(let i = 0 ; i < $('.tab-menu').length ; i++ ){
-        $(".tab-box").eq(i).children().eq(0).show().siblings().hide()
-        $('.tab-menu').eq(i).children().children().eq(0).addClass("change").siblings().removeClass("change")
+
+
+$('.first-tab-menu ul li').click(function(){
+    firstIndex=$(this).index()
+    selectFn($('.first-tab-box'),$(this).index(),true)
+})
+$('.second-tab-menu ul li').click(function(){
+    secondIndex=$(this).index()
+    selectFn($('.second-tab-box'),$(this).index(),true)
+})
+
+
+//====================================================
+$('.first-left_btn').click(function(){
+    firstIndex--
+    if(firstIndex<=-1){
+        firstIndex=$('.first-tab-box').children().length-1
     }
-});
+    selectFn($('.first-tab-box'),firstIndex,true)
+    selectStyle($('.first-tab-menu li'),firstIndex)
+})
+$('.first-right_btn').click(function(){
+    firstIndex++
+    if(firstIndex>=$('.first-tab-box').children().length){
+        firstIndex=0
+    }
+    selectFn($('.first-tab-box'),firstIndex,true)
+    selectStyle($('.first-tab-menu li'),firstIndex)
+})
 
+//===============================================================
+$('.second-left_btn').click(function(){
+    secondIndex--
+    if(secondIndex<=-1){
+        secondIndex=$('.second-tab-box').children().length-1
+    }
+    selectFn($('.second-tab-box'),secondIndex,true)
+    selectStyle($('.second-tab-menu li'),secondIndex)
+})
+$('.second-right_btn').click(function(){
+    secondIndex++
+    if(secondIndex>=$('.second-tab-box').children().length){
+        secondIndex=0
+    }
+    selectFn($('.second-tab-box'),secondIndex,true)
+    selectStyle($('.second-tab-menu li'),secondIndex)
+})
+//================================================================
 $(".submit_message").click(function(){
     if($(".fill_in input").val() =="" && $(".fill_in textarea").val() =="") {
         alert("请输入留言内容")
@@ -46,3 +59,48 @@ $(".submit_message").click(function(){
         $(".fill_in textarea").val("");
     }
 });
+
+
+$(".section_table .content").click(function(){
+    firstIndex=0
+    secondIndex=0
+    selectFn($('.first-tab-box'),firstIndex,true)
+    selectFn($('.second-tab-box'),secondIndex,true)
+    selectStyle($('.first-tab-menu li'),firstIndex)
+    selectStyle($('.second-tab-menu li'),secondIndex)
+});
+
+
+function selectFn(parent,index,judge){
+    if(judge){
+        for( let i = 0 ; i < parent.children().length ; i++ ) {
+            if( i != index ){
+                parent.children().eq(i).hide()
+            }
+        }
+        parent.children().eq(index).show()
+    }else{
+        parent.children().eq(index).show()
+    }
+}
+
+function selectStyle(children,index){
+    children.eq(index).addClass("change").siblings().removeClass("change");
+}
+
+// function judgeFn(parent,children,index,judge){
+//     console.log(children,index,judge)
+//     if(judge){
+//         index++ 
+//         if(index>=parent.children().length){
+//             index=0
+//         } 
+//         selectFn(parent,firstIndex,true)
+//         selectStyle(children,firstIndex)
+//     }else{
+//         index-- 
+//         if(index<=-1){
+//             index=parent.children().length-1
+//         } 
+//     } 
+// }
