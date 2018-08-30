@@ -29,6 +29,14 @@ function numFun(){
     $('.details').eq(_index).show();
 }
 
+$(".section_table .content").click(function(){
+    _index=0;
+    for(let i = 0 ; i < $('.tab-menu').length ; i++ ){
+        $(".tab-box").eq(i).children().eq(0).show().siblings().hide()
+        $('.tab-menu').eq(i).children().children().eq(0).addClass("change").siblings().removeClass("change")
+    }
+});
+
 $(".submit_message").click(function(){
     if($(".fill_in input").val() =="" && $(".fill_in textarea").val() =="") {
         alert("请输入留言内容")
