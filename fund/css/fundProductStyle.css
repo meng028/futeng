@@ -40,10 +40,17 @@ button{
 }
 
 .table_change_left_container{
-    border:1px solid #777777;
+    border:1px solid #eee;
 }
 .table_change_left_container h5{
     font-size: 18px;
+    color:#999999;
+    margin-top:36px;
+    padding-left:36px;
+    padding-bottom:70px;
+}
+.table_change_left_container h5 .clbele{
+    color:#be1e21;
 }
 
 

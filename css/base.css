@@ -94,7 +94,7 @@ a{
 .f14{font-size:14px;}
 .f16{font-size:16px;}
 .f20{font-size:0.2rem;}
-.f24{font-size:0.24rem;}
+.f24{font-size:24px;}
 .f26{font-size:0.26rem;}
 .f28{font-size:0.28rem;}
 .f30{font-size:0.3rem;}
@@ -215,7 +215,8 @@ a{
 .pr10{padding-right:10px;}
 .pr12{padding-right:12px;}
 .pr15{padding-right:15px;}
-.pr30{padding-right:0.3rem;}
+.pr25{padding-right:25px;}
+.pr30{padding-right:30px;}
 .pr50{padding-right:50px;}
 .pr100{padding-right:100px;}
 

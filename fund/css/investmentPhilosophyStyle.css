@@ -6,12 +6,10 @@
     line-height:60px;
     padding-left: 30px;
 }
-.treasure_manage>h3{
+.section_right_container>h3{
     font-size: 20px;
     color:#010000;
-}
-.treasure_manage>ol{
-    margin-top:46px;
+    margin-bottom:46px;
 }
 .treasure_manage>ol>li{
     margin-bottom:56px;
@@ -29,5 +27,24 @@
     margin-top:24px;
     margin-bottom:16px;
 }
+
+.announcement .announcement_content{
+    /*background:#eee;*/
+
+}
+.announcement .announcement_content a{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color:#777777;
+    margin-bottom:24px;
+}
+.announcement .announcement_content .view_all{
+    margin:16px 0 80px;
+    font-size:16px;
+    color:#be1e21;
+}
+
+
 
 

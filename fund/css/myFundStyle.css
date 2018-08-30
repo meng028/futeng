@@ -1,0 +1,57 @@
+
+h5{
+    font-size: 16px;
+    padding-bottom:18px;
+    border-bottom:1px solid #ff0000;
+}
+.myfund_container{
+    padding-bottom:200px;
+}
+.myfund_tit{
+    padding-top: 38px;
+    padding-bottom: 10px;
+    font-size:18px;
+    border-bottom:1px solid #d2d2d2;
+}
+.myfund_content_table{
+    width:100%;
+    font-size: 16px;
+}
+#table_tit{
+    background: #FFFFFF;
+    color:#333333;
+    padding-top:30px;
+    padding-bottom:16px;
+}
+.myfund_content_table li{
+    display: flex;
+    border-bottom:1px dashed #999999;
+    padding-top:48px;
+    padding-bottom:22px;
+    background:#f7f7f7;
+    color:#80817f;
+}
+.myfund_content_table li span{
+    flex:1;
+}
+.operate b{
+    font-weight:normal;
+}
+
+.myfund_b{
+    color:#333333;
+}
+.myfund_r{
+    color:#ff0000;
+    padding-right:5px;
+}
+.cl_nine{
+    color:#999999;
+}
+.operate_oa{
+    color:#0a357f;
+}
+.operate_be{
+    color:#be1e21;
+    padding-right:10px;
+}
