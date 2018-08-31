@@ -1,18 +1,12 @@
-let firstIndex=0;
-let secondIndex=0;
 
+
+//   first 轮播
+let firstIndex=0;
 $('.first-tab-menu ul li').click(function(){
     firstIndex=$(this).index();
     selectFn($('.first-tab-box'),$(this).index(),true);
     selectStyle($('.first-tab-menu li'),firstIndex)
 });
-$('.second-tab-menu ul li').click(function(){
-    secondIndex=$(this).index();
-    selectFn($('.second-tab-box'),$(this).index(),true);
-    selectStyle($('.second-tab-menu li'),secondIndex)
-});
-
-
 $('.first-left_btn').click(function(){
     firstIndex--;
     if(firstIndex<=-1){
@@ -29,8 +23,18 @@ $('.first-right_btn').click(function(){
     selectFn($('.first-tab-box'),firstIndex,true);
     selectStyle($('.first-tab-menu li'),firstIndex)
 });
-
-//===============================================================
+$(".section_table .content").click(function(){
+    firstIndex=0;
+    selectFn($('.first-tab-box'),firstIndex,true);
+    selectStyle($('.first-tab-menu li'),firstIndex);
+});
+//  second 轮播
+let secondIndex=0;
+$('.second-tab-menu ul li').click(function(){
+    secondIndex=$(this).index();
+    selectFn($('.second-tab-box'),$(this).index(),true);
+    selectStyle($('.second-tab-menu li'),secondIndex)
+});
 $('.second-left_btn').click(function(){
     secondIndex--;
     if(secondIndex<=-1){
@@ -47,16 +51,69 @@ $('.second-right_btn').click(function(){
     selectFn($('.second-tab-box'),secondIndex,true);
     selectStyle($('.second-tab-menu li'),secondIndex)
 });
-//================================================================
-
 $(".section_table .content").click(function(){
-    firstIndex=0;
     secondIndex=0;
-    selectFn($('.first-tab-box'),firstIndex,true);
     selectFn($('.second-tab-box'),secondIndex,true);
-    selectStyle($('.first-tab-menu li'),firstIndex);
-    selectStyle($('.second-tab-menu li'),secondIndex)
+    selectStyle($('.second-tab-menu li'),secondIndex);
 });
+//  third 轮播
+let thirdIndex=0;
+$('.third-tab-menu ul li').click(function(){
+    thirdIndex=$(this).index();
+    selectFn($('.third-tab-box'),$(this).index(),true);
+    selectStyle($('.third-tab-menu li'),thirdIndex)
+});
+$('.third-left_btn').click(function(){
+    thirdIndex--;
+    if(thirdIndex<=-1){
+        thirdIndex=$('.third-tab-box').children().length-1
+    }
+    selectFn($('.third-tab-box'),thirdIndex,true);
+    selectStyle($('.third-tab-menu li'),thirdIndex)
+});
+$('.third-right_btn').click(function(){
+    thirdIndex++;
+    if(thirdIndex>=$('.third-tab-box').children().length){
+        thirdIndex=0
+    }
+    selectFn($('.third-tab-box'),thirdIndex,true);
+    selectStyle($('.third-tab-menu li'),thirdIndex)
+});
+$(".section_table .content").click(function(){
+    thirdIndex=0;
+    selectFn($('.third-tab-box'),thirdIndex,true);
+    selectStyle($('.third-tab-menu li'),thirdIndex);
+});
+//  fourth 轮播
+let fourthIndex=0;
+$('.fourth-tab-menu ul li').click(function(){
+    fourthIndex=$(this).index();
+    selectFn($('.fourth-tab-box'),$(this).index(),true);
+    selectStyle($('.fourth-tab-menu li'),fourthIndex)
+});
+$('.fourth-left_btn').click(function(){
+    fourthIndex--;
+    if(fourthIndex<=-1){
+        fourthIndex=$('.fourth-tab-box').children().length-1
+    }
+    selectFn($('.fourth-tab-box'),fourthIndex,true);
+    selectStyle($('.fourth-tab-menu li'),fourthIndex)
+});
+$('.fourth-right_btn').click(function(){
+    fourthIndex++;
+    if(fourthIndex>=$('.fourth-tab-box').children().length){
+        fourthIndex=0
+    }
+    selectFn($('.fourth-tab-box'),fourthIndex,true);
+    selectStyle($('.fourth-tab-menu li'),fourthIndex)
+});
+$(".section_table .content").click(function(){
+    fourthIndex=0;
+    selectFn($('.fourth-tab-box'),fourthIndex,true);
+    selectStyle($('.fourth-tab-menu li'),fourthIndex);
+});
+
+
 
 function selectFn(parent,index,judge){
     if(judge){
@@ -82,9 +139,4 @@ $(".submit_message").click(function(){
         $(".fill_in input").val("");
         $(".fill_in textarea").val("");
     }
-});
-
-$('.down').click(function(){
-    $(".section_content_item").hide()
-    // alert("1111111")
 });
