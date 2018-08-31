@@ -372,6 +372,9 @@ aside>ul li{
     height: 165px;
     line-height: 50px;
 }
+.announcement{
+    padding: 0 60px;
+}
 .submit_message{
     width: 170px;
     height: 45px;

@@ -1,75 +1,62 @@
-
-let firstIndex=0
-let secondIndex=0
-
-
+let firstIndex=0;
+let secondIndex=0;
 
 $('.first-tab-menu ul li').click(function(){
-    firstIndex=$(this).index()
-    selectFn($('.first-tab-box'),$(this).index(),true)
-})
+    firstIndex=$(this).index();
+    selectFn($('.first-tab-box'),$(this).index(),true);
+    selectStyle($('.first-tab-menu li'),firstIndex)
+});
 $('.second-tab-menu ul li').click(function(){
-    secondIndex=$(this).index()
-    selectFn($('.second-tab-box'),$(this).index(),true)
-})
+    secondIndex=$(this).index();
+    selectFn($('.second-tab-box'),$(this).index(),true);
+    selectStyle($('.second-tab-menu li'),secondIndex)
+});
 
 
-//====================================================
 $('.first-left_btn').click(function(){
-    firstIndex--
+    firstIndex--;
     if(firstIndex<=-1){
         firstIndex=$('.first-tab-box').children().length-1
     }
-    selectFn($('.first-tab-box'),firstIndex,true)
+    selectFn($('.first-tab-box'),firstIndex,true);
     selectStyle($('.first-tab-menu li'),firstIndex)
-})
+});
 $('.first-right_btn').click(function(){
-    firstIndex++
+    firstIndex++;
     if(firstIndex>=$('.first-tab-box').children().length){
         firstIndex=0
     }
-    selectFn($('.first-tab-box'),firstIndex,true)
+    selectFn($('.first-tab-box'),firstIndex,true);
     selectStyle($('.first-tab-menu li'),firstIndex)
-})
+});
 
 //===============================================================
 $('.second-left_btn').click(function(){
-    secondIndex--
+    secondIndex--;
     if(secondIndex<=-1){
         secondIndex=$('.second-tab-box').children().length-1
     }
-    selectFn($('.second-tab-box'),secondIndex,true)
+    selectFn($('.second-tab-box'),secondIndex,true);
     selectStyle($('.second-tab-menu li'),secondIndex)
-})
+});
 $('.second-right_btn').click(function(){
-    secondIndex++
+    secondIndex++;
     if(secondIndex>=$('.second-tab-box').children().length){
         secondIndex=0
     }
-    selectFn($('.second-tab-box'),secondIndex,true)
+    selectFn($('.second-tab-box'),secondIndex,true);
     selectStyle($('.second-tab-menu li'),secondIndex)
-})
-//================================================================
-$(".submit_message").click(function(){
-    if($(".fill_in input").val() =="" && $(".fill_in textarea").val() =="") {
-        alert("请输入留言内容")
-    }else {
-        alert("提交成功");
-        $(".fill_in input").val("");
-        $(".fill_in textarea").val("");
-    }
 });
-
+//================================================================
 
 $(".section_table .content").click(function(){
-    firstIndex=0
-    secondIndex=0
-    selectFn($('.first-tab-box'),firstIndex,true)
-    selectFn($('.second-tab-box'),secondIndex,true)
-    selectStyle($('.first-tab-menu li'),firstIndex)
+    firstIndex=0;
+    secondIndex=0;
+    selectFn($('.first-tab-box'),firstIndex,true);
+    selectFn($('.second-tab-box'),secondIndex,true);
+    selectStyle($('.first-tab-menu li'),firstIndex);
     selectStyle($('.second-tab-menu li'),secondIndex)
 });
-
 
 function selectFn(parent,index,judge){
     if(judge){
@@ -83,24 +70,16 @@ function selectFn(parent,index,judge){
         parent.children().eq(index).show()
     }
 }
-
 function selectStyle(children,index){
     children.eq(index).addClass("change").siblings().removeClass("change");
 }
 
-// function judgeFn(parent,children,index,judge){
-//     console.log(children,index,judge)
-//     if(judge){
-//         index++ 
-//         if(index>=parent.children().length){
-//             index=0
-//         } 
-//         selectFn(parent,firstIndex,true)
-//         selectStyle(children,firstIndex)
-//     }else{
-//         index-- 
-//         if(index<=-1){
-//             index=parent.children().length-1
-//         } 
-//     } 
-// }
+$(".submit_message").click(function(){
+    if($(".fill_in input").val() =="" && $(".fill_in textarea").val() =="") {
+        alert("请输入留言内容")
+    }else {
+        alert("提交成功");
+        $(".fill_in input").val("");
+        $(".fill_in textarea").val("");
+    }
+});
