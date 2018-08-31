@@ -83,3 +83,8 @@ $(".submit_message").click(function(){
         $(".fill_in textarea").val("");
     }
 });
+
+$('.down').click(function(){
+    $(".section_content_item").hide()
+    // alert("1111111")
+});
