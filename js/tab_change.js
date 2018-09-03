@@ -1,5 +1,18 @@
-
-
+function selectFn(parent,index,judge){
+    if(judge){
+        for( let i = 0 ; i < parent.children().length ; i++ ) {
+            if( i != index ){
+                parent.children().eq(i).hide()
+            }
+        }
+        parent.children().eq(index).show()
+    }else{
+        parent.children().eq(index).show()
+    }
+}
+function selectStyle(children,index){
+    children.eq(index).addClass("change").siblings().removeClass("change");
+}
 //   first 轮播
 let firstIndex=0;
 $('.first-tab-menu ul li').click(function(){
@@ -112,25 +125,36 @@ $(".section_table .content").click(function(){
     selectFn($('.fourth-tab-box'),fourthIndex,true);
     selectStyle($('.fourth-tab-menu li'),fourthIndex);
 });
-
-
-
-function selectFn(parent,index,judge){
-    if(judge){
-        for( let i = 0 ; i < parent.children().length ; i++ ) {
-            if( i != index ){
-                parent.children().eq(i).hide()
-            }
-        }
-        parent.children().eq(index).show()
-    }else{
-        parent.children().eq(index).show()
+// fifth 轮播
+let fifthIndex=0;
+$('.fifth-tab-menu ul li').click(function(){
+    fifthIndex=$(this).index();
+    selectFn($('.fifth-tab-box'),$(this).index(),true);
+    selectStyle($('.fifth-tab-menu li'),fifthIndex)
+});
+$('.fifth-left_btn').click(function(){
+    fifthIndex--;
+    if(fifthIndex<=-1){
+        fifthIndex=$('.fifth-tab-box').children().length-1
     }
-}
-function selectStyle(children,index){
-    children.eq(index).addClass("change").siblings().removeClass("change");
-}
+    selectFn($('.fifth-tab-box'),fifthIndex,true);
+    selectStyle($('.fifth-tab-menu li'),fifthIndex)
+});
+$('.fifth-right_btn').click(function(){
+    fifthIndex++;
+    if(fifthIndex>=$('.fifth-tab-box').children().length){
+        fifthIndex=0
+    }
+    selectFn($('.fifth-tab-box'),fifthIndex,true);
+    selectStyle($('.fifth-tab-menu li'),fifthIndex)
+});
+$(".section_table .content").click(function(){
+    fifthIndex=0;
+    selectFn($('.fifth-tab-box'),fifthIndex,true);
+    selectStyle($('.fifth-tab-menu li'),fifthIndex);
+});
 
+// 提交留言
 $(".submit_message").click(function(){
     if($(".fill_in input").val() =="" && $(".fill_in textarea").val() =="") {
         alert("请输入留言内容")
@@ -141,6 +165,7 @@ $(".submit_message").click(function(){
     }
 });
 
+// 点击按钮隐藏页面
 $('.down').click(function(){
     $(".section_content_item").hide()
 });
