@@ -1,6 +1,7 @@
 section{
     width:100%;
 }
+
 section>.section_h{
     width:100%;
     height: 600px;
@@ -18,8 +19,32 @@ section>.section_table{
     margin:0 auto;
     display: flex;
     justify-content: center;
-    padding-bottom:150px;
 }
+.section_table>.content{
+    z-index: 9999;
+}
+.section_foot{
+    width:100%;
+    height:150px;
+    background:#FFFFFF;
+    z-index: 999;
+    position: relative;
+}
+.homeactive{
+    animation: homeactive 1s 1;
+}
+@keyframes homeactive{
+    from{transform:translate(0,600px)}
+    to{transform:translate(0,0)}
+}
+.gohomeactive{
+    animation: gohomeactive 1s 1;
+}
+@keyframes gohomeactive{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,600px)}
+}
+
 .content{
     height: 125px;
     background-color: #F9F0F1;

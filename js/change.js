@@ -1,20 +1,18 @@
 
-
 // hide all
 $(".section_content_item").hide();
 $(".section_table .content").click(function(){
-
-    $(".tab-menu").removeClass("active_tab");
-    $(".tab-box").removeClass("active_box");
-    // 底部tab添加样式
     $(".section_table .content").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
-    // 上面对应的选项卡添加样式
-    $(".tab-menu").eq($(this).index()).addClass("active_tab").siblings().removeClass("active_tab");
-    // 内容
-    $(".tab-box").eq($(this).index()).addClass("active_box").siblings().removeClass("active_box");
-
-    $(".section_content_item").hide().eq($(this).index()).show();
+    $(".section_content_item").hide().eq($(this).index()).show().addClass("homeactive");
 });
+// 点击返回首页 动画效果
+$('.down').click(function(){
+    $(".section_content_item").addClass('gohomeactive');
+    setTimeout(function(){
+        $(".section_content_item").hide().removeClass('gohomeactive');
+    },900);
+});
+
 
 // show first
 $(".section_right_container").hide().eq(0).show();
