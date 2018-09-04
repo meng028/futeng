@@ -77,7 +77,9 @@
     margin: 0 0 40px 0;
 }
 .develop_list li img{
-    margin-top: 66px;
+    margin-top: 35px;
+    width: 489px;
+    height: 245px;
 }
 .red_underline{
     width: 53px;
@@ -283,7 +285,10 @@ aside>ul li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 60px;
+    margin-top: 30px;
+}
+.perch{
+    margin-top: 30px;
 }
 .map{
     width: 560px;
@@ -321,7 +326,7 @@ aside>ul li{
     line-height: 50px;
 }
 .announcement{
-    padding: 0 60px;
+    /*padding: 0 60px;*/
 }
 .submit_message{
     width: 170px;
@@ -337,4 +342,7 @@ aside>ul li{
 .way img{
     margin: 4px 10px 0 0;
     float: left;
+}
+.aa{
+    transform: translateY(47%);
 }

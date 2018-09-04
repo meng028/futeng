@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif";
+    min-height: 960px;
+    min-width: 600px;
+}
+.my-map {
+    width: 560px;
+    height: 645px;
+}
+.my-map .icon {
+    background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat;
+}
+.my-map .icon-cir {
+    height: 31px;
+    width: 28px;
+}
+.my-map .icon-cir-red {
+    background-position: -11px -5px;
+}
+.amap-container{
+    height: 100%;
+}
