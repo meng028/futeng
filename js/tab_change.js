@@ -164,8 +164,3 @@ $(".submit_message").click(function(){
         $(".fill_in textarea").val("");
     }
 });
-
-// 点击按钮隐藏页面
-$('.down').click(function(){
-    $(".section_content_item").hide()
-});
