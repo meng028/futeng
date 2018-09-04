@@ -114,4 +114,9 @@ footer{
 .home_bgm{
     color:#fff;
     background: #BE1D22!important;
+
+}
+.home_showdow{
+    height:85px!important;
+    box-shadow: #f3d6d7 10px 10px 30px 5px ;
 }

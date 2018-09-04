@@ -2,6 +2,7 @@
 // hide all
 $(".section_content_item").hide();
 $(".section_table .content").click(function(){
+    $(".section_table .content").addClass("home_showdow");
     $(".section_table .content").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
     $(".section_content_item").hide().eq($(this).index()).show().addClass("homeactive");
 });
