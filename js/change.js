@@ -6,6 +6,33 @@ $(".section_table .content").click(function(){
     $(".section_table .content").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
     $(".section_content_item").hide().eq($(this).index()).show().addClass("homeactive");
 });
+
+//
+$(".internet_way_content1>div").hide();
+$(".internet_way_table1>li").click(function(){
+    $(".internet_way_table1>li").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
+    $(".internet_way_content1>div").hide().eq($(this).index()).show();
+});
+
+$(".internet_way_content2>div").hide();
+$(".internet_way_table2>li").click(function(){
+    $(".internet_way_table2>li").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
+    $(".internet_way_content2>div").hide().eq($(this).index()).show();
+});
+
+$(".internet_way_content3>div").hide();
+$(".internet_way_table3>li").click(function(){
+    $(".internet_way_table3>li").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
+    $(".internet_way_content3>div").hide().eq($(this).index()).show();
+});
+
+$(".internet_way_content4>div").hide();
+$(".internet_way_table4>li").click(function(){
+    $(".internet_way_table4>li").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
+    $(".internet_way_content4>div").hide().eq($(this).index()).show();
+});
+
+
 // 点击返回首页 动画效果
 $('.down').click(function(){
     $(".section_content_item").addClass('gohomeactive');

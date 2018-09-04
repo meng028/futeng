@@ -1,0 +1,71 @@
+.internet_container{
+    width:1200px;
+}
+.internet_container h3{
+    font-size: 24px;
+    color:#333333;
+    padding:44px 0 44px 68px;
+    position: relative;
+}
+.internet_container h3 .internet_iphone_show{
+    width:303px;
+    height:602px;
+    position: absolute;
+    top:56px;
+    right:80px;
+}
+.underline{
+    width: 43px;
+    height: 2px;
+    background-color: #1f36a3;
+    margin-top: 20px;
+}
+.internet_container .internet_content{
+    height:244px;
+    background:#BE1D22;
+    vertical-align:middle;
+    display:table-cell;
+    padding-left:60px;
+    padding-right:460px;
+    font-size: 16px;
+    color:#FFFFFF;
+}
+.internet_way{
+    height:314px;
+    padding-top:50px;
+    padding-right:380px;
+}
+.internet_way_table{
+    display: flex;
+    justify-content: center;
+}
+.internet_way_table li{
+    width:132px;
+    height:48px;
+    border:1px solid #3e3e3e;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 48px;
+    margin-right: 70px;
+}
+.internet_way_table li:last-child{
+    margin:0!important;
+}
+.internet_way_table>li>img{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right:10px;
+}
+.internet_way_content{
+    width:100%;
+    height:264px;
+}
+.internet_way_content div{
+    width:100%;
+    height:264px;
+    text-align: center;
+}
+.internet_way_content div img{
+    display: inline-block;
+    margin-top:60px;
+}
