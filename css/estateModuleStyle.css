@@ -1,3 +1,4 @@
+/*富腾时代*/
 .top_title{
     font-size: 18px;
     color: #333;
@@ -35,6 +36,21 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+/*雁栖湖财富小镇*/
+.synopsis_content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.synopsis_content p{
+    width: 505px;
+}
+.develop_vision{
+    display: block;
+}
+/*==========================================================================*/
 
 
 
@@ -89,18 +105,8 @@ aside>ul b{
 }
 aside>ul li{
     padding-top: 9px;
-}
-.top-2_view{
-    width: 510px;
-    margin: 0 auto;
-    padding: 15px 0;
-    text-align: center;
-    line-height: 25px;
-}
-.top-2_view p{
-    color: #243AA7;
-    margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 14px;
+    color: #666;
 }
 .intro{
     width: 100%;
@@ -111,14 +117,13 @@ aside>ul li{
 .intro_left{
     width: 50%;
     height: 530px;
-    background-color: pink;
 }
 .intro_right{
     width: 50%;
     height: 530px;
     background-color: #2A40A8;
     color: #FFFFFF;
-    padding: 35px 50px;
+    padding: 25px 45px;
     box-sizing: border-box;
 }
 .intro_right h2{
@@ -127,10 +132,13 @@ aside>ul li{
     font-family: "Times New Roman";
 }
 .intro_right s{
+    width: 100%;
     text-decoration: none;
     font-size: 20px;
-    padding-top: 25px;
+    padding: 20px 0 10px 0;
     display: inline-block;
+    border-bottom: 1px solid #4F60B7;
+    box-sizing: border-box;
 }
 .intro_right ul li:nth-child(1){
     font-size: 16px;
@@ -143,8 +151,9 @@ aside>ul li{
     color: #CFD4EC;
 }
 .background_info{
-    padding: 65px;
-    font-family: "Microsoft YaHei UI";
+    width: 1075px;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 .top_part{
     width: 100%;
@@ -152,11 +161,12 @@ aside>ul li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .top_part_left {
     width: 540px;
     float: left;
-    padding: 76px 0 83px 0;
+    padding: 0 0 83px 0;
 }
 .top_part_left .red_bar{
     margin: 10px 0 0 0;
@@ -167,10 +177,14 @@ aside>ul li{
     font-weight: normal;
 }
 .top_part_left h4 {
-    padding-top: 39px;
+    padding: 40px 0 5px 0;
     font-size: 16px;
     font-weight: normal;
     color: #000;
+    box-sizing: border-box;
+}
+.top_part_left h4:nth-child(3){
+    padding-top: 65px;
 }
 .top_part_left i {
     font-style: normal;
@@ -179,13 +193,14 @@ aside>ul li{
 .top_part_right {
     width: 480px;
     height: 400px;
-    background-color: pink;
     float: right;
+}
+.bottom_part{
+    display: block;
 }
 .bottom_part_left{
     width: 480px;
     height: 400px;
-    background: pink;
     float: left;
 }
 .bottom_part_right{
@@ -202,8 +217,7 @@ aside>ul li{
     font-size: 20px;
     font-weight: normal;
 }
-.bottom_part_right h4
-{
+.bottom_part_right h4 {
     padding-top: 39px;
     font-size: 16px;
     font-weight: normal;
@@ -234,52 +248,6 @@ aside>ul li{
     height: 208px;
     background-color: wheat;
     margin-top: 20px;
-}
-.blue_bgm{
-    background-color: #2A40A8;
-}
-.blue_bgm .top_view h3{
-    color: #fff;
-}
-.blue_bgm .top_view p{
-    color: #DADDEF;
-}
-.blue_bgm .top_view i{
-    color: #A7B1DB;
-}
-.planning_content{
-    padding: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.character{
-    width: 510px;
-    margin-right: 42px;
-}
-.character li{
-    font-size: 14px;
-    padding-bottom: 35px;
-    color: #525252;
-}
-.pictures_show{
-    width: 500px;
-    height: 400px;
-    position: relative;
-}
-.ground_floor{
-    width: 400px;
-    height: 400px;
-    background-color: wheat;
-    float: right;
-}
-.top_floor {
-    width: 180px;
-    height: 180px;
-    background-color: pink;
-    position: absolute;
-    bottom: 60px;
-    left: 0;
 }
 .cooperation{
     display: flex;
