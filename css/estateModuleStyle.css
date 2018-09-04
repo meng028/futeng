@@ -48,12 +48,63 @@
     width: 505px;
 }
 .develop_vision{
+    width: 100%;
     display: block;
+    margin-top: 50px;
 }
-/*==========================================================================*/
-
-
-
+.vision_details{
+    width: 545px;
+}
+.vision_details h4{
+    margin: 20px 0 15px 0;
+    font-size: 18px;
+    color: #000;
+}
+.vision_details h5{
+    font-size: 16px;
+    color: #000;
+    margin: 25px 0 3px 0;
+}
+.vision_details p{
+    font-size: 14px;
+    color: #666;
+    line-height: 25px;
+}
+.develop_list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+}
+.develop_list li img{
+    margin-top: 66px;
+}
+.red_underline{
+    width: 53px;
+    height: 2px;
+    background-color: #FF0000;
+    margin-top: 10px;
+}
+.plan_tactics_list li{
+    margin-top: 30px;
+}
+.plan_tactics_list li h5{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 3px;
+}
+.plan_tactics_list li p{
+    font-size: 14px;
+    color: #666;
+    line-height: 23px;
+}
+.plan_tactics_img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
 
 .top_view{
     text-align: center;
@@ -109,10 +160,12 @@ aside>ul li{
     color: #666;
 }
 .intro{
-    width: 100%;
+    width: 1183px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background: pink;
+    margin-left: -60px;
 }
 .intro_left{
     width: 50%;
@@ -154,6 +207,7 @@ aside>ul li{
     width: 1075px;
     padding-top: 50px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .top_part{
     width: 100%;
@@ -182,9 +236,6 @@ aside>ul li{
     font-weight: normal;
     color: #000;
     box-sizing: border-box;
-}
-.top_part_left h4:nth-child(3){
-    padding-top: 65px;
 }
 .top_part_left i {
     font-style: normal;
@@ -249,6 +300,11 @@ aside>ul li{
     background-color: wheat;
     margin-top: 20px;
 }
+
+
+
+
+
 .cooperation{
     display: flex;
     flex-direction: row;
