@@ -51,7 +51,8 @@
 .internet_way_table li:last-child{
     margin:0!important;
 }
-.internet_way_table>li>img{
+.internet_way_table li .iconfont{
+    font-size: 24px;
     display: inline-block;
     vertical-align: middle;
     padding-right:10px;

@@ -367,15 +367,3 @@
     margin-top: 5px;
     display: inline-block;
 }
-.down{
-    width: 57px;
-    height: 48px;
-    background-color: #1F36A3;
-    box-sizing: border-box;
-    padding: 10px 14px;
-    cursor: pointer;
-}
-.down img{
-    width: 30px;
-    height: 30px;
-}
