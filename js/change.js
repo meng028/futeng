@@ -2,8 +2,7 @@
 // hide all
 $(".section_content_item").hide();
 $(".section_table .content").click(function(){
-    $(".section_table .content").addClass("home_showdow");
-    $(".section_table .content").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
+    $(".section_table .content").addClass("home_showdow").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
     $(".section_content_item").hide().eq($(this).index()).show().addClass("homeactive");
 });
 
@@ -43,9 +42,11 @@ $('.down').click(function(){
 
 
 // show first
+$(".triangle").hide().eq(0).show();
 $(".section_right_container").hide().eq(0).show();
 $(".section_table li:first").addClass("active");
 $(".section_table li").click(function(){
+    $(".triangle").hide().eq($(this).index()).show();
     $(".section_table li").eq($(this).index()).addClass("active").siblings().removeClass("active");
     $(".section_right_container").hide().eq($(this).index()).show();
 });

@@ -103,10 +103,6 @@ footer{
 .foot_copayright>div>span{
     padding-right:5px;
 }
-.active{
-    background:#be1e21;
-    color:#FFFFFF;
-}
 .active_{
     color:#be1e21;
     border-bottom:1px solid #be1e21;
@@ -114,8 +110,8 @@ footer{
 .home_bgm{
     color:#fff;
     background: #BE1D22!important;
-
 }
+/*首页阴影*/
 .home_showdow{
     height:85px!important;
     box-shadow: #f3d6d7 10px 10px 30px 5px ;

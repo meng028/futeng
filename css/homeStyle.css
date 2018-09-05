@@ -30,7 +30,7 @@ section>.section_table>.content{
     z-index: 9999;
 }
 section>.section_table>.content>dt{
-    margin-right:10px;
+    margin-right:30px;
 }
 .section_foot{
     width:100%;
