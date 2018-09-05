@@ -113,11 +113,11 @@ section>.section_table>.content>dt{
     cursor: pointer;
     text-align: center;
 }
-.down img{
-    width: 26px;
-    height: 26px;
-    padding-top:10px;
-}
+/*.down img{*/
+    /*width: 26px;*/
+    /*height: 26px;*/
+    /*padding-top:10px;*/
+/*}*/
 .content dt .iconfont{
     -webkit-text-stroke-width: 0.01px!important;
     width:50px;
