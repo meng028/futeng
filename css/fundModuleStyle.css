@@ -84,9 +84,8 @@
     float: right;
 }
 .zhanwei{
-    width: 158px;
+    width: 160px;
     height: 120px;
-    background-color: pink;
     float: left;
 }
 .invest_list ul li{
@@ -202,8 +201,11 @@
 .zhan{
     width: 100px;
     height: 100px;
-    background-color: pink;
     float: left;
+}
+.zhan img{
+    width:100px;
+    height:100px;
 }
 .team_info{
     display: flex;
@@ -259,7 +261,6 @@
 .brand_list li div{
     width: 270px;
     height: 80px;
-    background-color: pink;
 }
 .product_announcement{
     width: 410px;
@@ -301,7 +302,6 @@
 .fund_img{
     width: 410px;
     height: 200px;
-    background-color: pink;
     position: relative;
 }
 .chart{
@@ -330,8 +330,7 @@
 }
 .zw{
     width: 110px;
-    height: 105px;
-    background-color: pink;
+    height: 103px;
 }
 .new_announcement_list li{
     width: 584px;

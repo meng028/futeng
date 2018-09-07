@@ -121,8 +121,7 @@
     padding-bottom:80px;
 }
 .league_left{
-    width:560px;
-    background:#eee;
+    width:540px;
     margin-right:46px;
 }
 .league_right{
@@ -145,7 +144,7 @@
     padding-left:10px;
 }
 .league_right div{
-    margin-top:20px;
+    margin-top:16px;
     font-size: 16px;
     color:#666666;
 }
@@ -156,11 +155,13 @@
     font-size: 18px;
     color:#FFFFFF;
 }
-.league_right_intro{
-    margin-top: 36px;
+.league_right .btn_tijiaoliuyan{
+    margin-bottom:26px;
+}
+.league_right .league_right_intro{
+    margin-top: 10px;
     font-size: 14px;
     color:#666666;
-    margin-bottom:26px;
 }
 
 .league_right_textarea{
