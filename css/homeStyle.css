@@ -6,6 +6,7 @@ section>.section_h{
     width:100%;
     height: 600px;
     background: url("../images/shouye_banner.png") no-repeat 0 0;
+    background-size:100% 100%;
 }
 .section_content>div{
     margin:0 auto;
