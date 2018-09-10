@@ -2,6 +2,7 @@
 // hide all
 $(".section_content_item").hide();
 $(".section_table .content").click(function(){
+    $('.section_content').addClass('section_content_bgm');
     $(".section_table .content").addClass("home_showdow").eq($(this).index()).addClass("home_bgm").siblings().removeClass("home_bgm");
     $(".section_content_item").hide().eq($(this).index()).show().addClass("homeactive");
 });
@@ -37,7 +38,8 @@ $('.down').click(function(){
     $(".section_content_item").addClass('gohomeactive');
     setTimeout(function(){
         $(".section_content_item").hide().removeClass('gohomeactive');
-    },900);
+        $('.section_content').removeClass('section_content_bgm');
+    },800);
 });
 
 
