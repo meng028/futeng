@@ -30,4 +30,6 @@ section{
     width:920px;
     height:400px;
 }
-
+.goback{
+    display: inline-block;
+}
