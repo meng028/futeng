@@ -74,6 +74,9 @@ section>.section_table>.content>dt{
 .gohomeactive{
     animation: gohomeactive 1s 1;
 }
+.fade-out{
+    transition: all 0.3s linear;
+}
 @keyframes gohomeactive{
     from{transform:translate(0,0)}
     to{transform:translate(0,600px)}

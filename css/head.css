@@ -115,6 +115,7 @@ footer{
 .home_bgm{
     color:#fff;
     background: #BE1D22!important;
+    transition: all 0.3s linear;
 }
 /*首页阴影*/
 .home_showdow{
