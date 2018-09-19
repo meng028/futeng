@@ -10,7 +10,12 @@ h3{
 }
 h3>span{
     padding-bottom:14px;
-    border-bottom:2px solid #be1e21;
+}
+.font_underline{
+    width: 40px;
+    height: 2px;
+    background-color: #BE1E21;
+    margin-top: 10px;
 }
 .news_trends_container{
     line-height: 2.5;
@@ -20,7 +25,4 @@ h3>span{
 .news_trends_item{
     display: flex;
     justify-content: space-between;
-}
-.news_trends_item>span{
-
 }

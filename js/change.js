@@ -7,6 +7,19 @@ $(".section_table .content").click(function(){
     $(".section_content_item").hide().eq($(this).index()).show().addClass("homeactive");
 });
 
+// 关于富腾 - 管理团队
+$(".Manage_team_list_content").hide();
+$(".Manage_team_list li").click(function(){
+    const isShow = $(".Manage_team_list_content").eq($(this).index()).css('display');
+    if( isShow == "block" ){
+        $(".pull_down_img").eq($(this).index()).attr("src","./images/pull_down.png");
+        $(".Manage_team_list_content").eq($(this).index()).hide();
+    }else{
+        $(".pull_down_img").eq($(this).index()).attr("src","./images/pull_up.png");
+        $(".Manage_team_list_content").eq($(this).index()).show();
+    }
+});
+
 //
 $(".internet_way_content1>div").hide();
 $(".internet_way_table1>li").click(function(){
