@@ -130,7 +130,7 @@
     width: 120px;
     height: 40px;
     border-radius: 20px;
-    border: 1px solid #ff6060;
+    border: 1px solid #FFB4B4;
     color: #ff6060;
     font-size: 16px;
     background-color: #fff;
@@ -139,7 +139,7 @@
 }
 .invest{
     margin-top: -20px;
-    padding: 60px;
+    padding: 60px 60px 0 60px;
     box-sizing: border-box;
     width: 1200px;
 }
@@ -187,7 +187,7 @@
     border-radius: 20px;
     background-color: #3c4da4;
     border: 1px solid #B9BEDA;
-    margin-top: 30px;
+    margin-top: 55px;
     cursor: pointer;
 }
 .team_list{
@@ -264,12 +264,10 @@
 }
 .product_announcement{
     width: 410px;
-    height: 655px;
     float: left;
 }
 .new_announcement{
     width: 584px;
-    height: 655px;
     float: right;
 }
 .product_announcement_title,
@@ -323,7 +321,7 @@
 .notice_list li{
     font-size: 14px;
     color: #777;
-    line-height: 33px;
+    line-height: 35px;
 }
 .notice_list li span{
     float: right;
@@ -340,7 +338,7 @@
     border-bottom: 1px #E5E5E5 dashed;
     padding-bottom: 15px;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .new_notice_info{
     width: 455px;
@@ -358,6 +356,7 @@
 .new_notice_info p span{
     color: #ff0000;
     float: right;
+    margin-right: 10px;
 }
 .new_notice_info s{
     text-decoration: none;

@@ -11,7 +11,7 @@ function selectFn(parent,index,judge){
     }
 }
 function selectStyle(children,index){
-    children.eq(index).addClass("change").siblings().removeClass("change");
+    children.eq(index).addClass("change").siblings().removeClass("change").addClass("fade-out");
 }
 //   first 轮播
 let firstIndex=0;

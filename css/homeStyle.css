@@ -30,7 +30,7 @@ section>.section_h{
     background: mediumvioletred;
 }
 .section_content_bgm{
-    background: #F9F0F1;
+    background: #E9C2C2;
 }
 .section_content>div{
     margin:0 auto;
@@ -73,6 +73,9 @@ section>.section_table>.content>dt{
 }
 .gohomeactive{
     animation: gohomeactive 1s 1;
+}
+.fade-out{
+    transition: all 0.3s linear;
 }
 @keyframes gohomeactive{
     from{transform:translate(0,0)}

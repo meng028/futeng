@@ -26,3 +26,15 @@ h3>span{
     display: flex;
     justify-content: space-between;
 }
+.news_trends_item>span{
+
+}
+.news_trends_bar{
+    width: 100%;
+    border-top: 1px solid #C1282D;
+}
+.news_trends_shadow{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(#f2f2f2,#fff);
+}

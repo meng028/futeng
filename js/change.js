@@ -49,6 +49,7 @@ $(".internet_way_table4>li").click(function(){
 // 点击返回首页 动画效果
 $('.down').click(function(){
     $(".section_content_item").addClass('gohomeactive');
+    $(".section_table .content").removeClass("home_bgm").addClass("fade-out");
     setTimeout(function(){
         $(".section_content_item").hide().removeClass('gohomeactive');
         $('.section_content').removeClass('section_content_bgm');
