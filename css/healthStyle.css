@@ -116,9 +116,12 @@
     border:1px solid #a7a7a7;
 }
 .league_container{
-    margin-top:80px;
+    margin-top:20px;
     display: flex;
     padding-bottom:80px;
+}
+.fuw20{
+    width:20px;
 }
 .league_left{
     width:540px;
@@ -163,7 +166,6 @@
     font-size: 14px;
     color:#666666;
 }
-
 .league_right_textarea{
     width:472px;
     height:164px;
@@ -178,3 +180,105 @@
     width:16px;
     height:16px;
 }
+.tab-box>.health_manage{
+    width:1080px;
+    padding:30px 60px;
+}
+.health_manage h3{
+    font-size: 20px;
+    color:#000000;
+}
+.health_manage h3 .font_underline,
+.health_list_tit .font_underline{
+    width: 40px;
+    background: #1f36a3;
+}
+.health_manage .health_list li{
+    margin-top:40px;
+    font-size: 16px;
+}
+.health_manage .health_list li .health_list_tit{
+    color:#333333;
+}
+.health_manage .health_list li .health_list_content{
+    color:#666666;
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+.health_list_pic{
+    display: flex;
+    width:100%;
+}
+.health_list_pic_item{
+    width:302px;
+    height:180px;
+    background: pink;
+    margin-right:46px;
+}
+.health_list_pic_item img{
+    width:100%;
+}
+.health_list_pic .health_list_item{
+    width:240px;
+    height:266px;
+    padding:38px 24px 0;
+    margin-right:56px;
+    background:#E9C2C2;
+    position: relative;
+}
+.health_list_pic .health_list_item .head_portrait{
+    width:44px;
+    height:44px;
+    border:8px solid #FFFFFF;
+    border-radius: 50%;
+    position:absolute;
+    left:114px;
+    top:-30px;
+}
+.health_list_pic .health_list_item .head_portrait img{
+    width:44px;
+    height:44px;
+    border-radius: 50%;
+}
+.head_portrait_name{
+    font-size:16px;
+    line-height: 24px;
+    text-align: center;
+}
+.head_portrait_name_intro{
+    font-size:12px;
+}
+.registration_button{
+    text-align: center;
+}
+.registration_button button{
+    width:398px;
+    height:56px;
+    background:#cf282b;
+    font-size: 18px;
+    color:#FFFFFF;
+    margin-bottom:40px;
+}
+.health_list_pic_content{
+    font-size: 14px;
+    color:#666666;
+    line-height: 2;
+    margin-top:32px;
+}
+.health_list_support{
+    width:776px;
+    height:320px;
+    margin-top:20px;
+}
+.health_list_support img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
