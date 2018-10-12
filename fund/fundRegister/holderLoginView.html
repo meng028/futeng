@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>持有人登录</title>
+    <link rel="stylesheet" href="./css/holderLoginStyle.css">
+    <script type="text/javascript" src="../../js/jquery-3.3.1.js" ></script>
+    <script type="text/javascript" src="../../js/sliderValidation.js"></script>
+    <script type="text/javascript" src="../../js/tab_change.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="back_btn">
+            <a href="../fundRegister/noticeView.html">
+                <div class="triangle_border_left"></div>
+                <span>返回</span>
+            </a>
+        </div>
+        <div class="holder_login_title">
+            基金份额持有人登录
+        </div>
+        <div class="holder_login_area">
+            <div class="verify-area">
+                <span>
+                    通行证号：
+                    <input type="text">
+                </span>
+                <span>
+                    &nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码 :&nbsp;
+                    <input type="password">
+                </span>
+                <span class="hua">
+                    <s class="hua_text">滑块验证&nbsp：</s>
+                    <div id="drag">
+                        <div class="drag_bg"></div>
+                        <div class="drag_text slidetounlock" onselectstart="return false;" unselectable="on">
+                            请按住滑块，拖动到最右边
+                        </div>
+                        <div class="handler handler_bg"></div>
+                    </div>
+                </span>
+                <p>证件包含身份证、护照、港澳通行证、台胞回乡证、企业营业执照等等，以您签约留下来证件号码为准</p>
+            </div>
+            <div class="operate_btn">
+                <button class="operate_btn_click fade-out">持有人登录</button>
+                <button class="fade-out">持有人未获得同行账号，在线申请</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('#drag').drag();
+
+        $('.operate_btn button').click(function(){
+            $(this).addClass("operate_btn_click").siblings().removeClass("operate_btn_click");
+        });
+
+    </script>
+</body>
+</html>

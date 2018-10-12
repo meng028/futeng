@@ -92,7 +92,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 10px;
+    padding: 10px 0;
     border-top: 1px solid #F1F1F1;
     border-bottom: 1px solid #F1F1F1;
     margin-top: 10px;
@@ -116,9 +116,13 @@
     font-size: 16px;
 }
 .periods_num s b{
-    color: #f54337;
-    font-size: 30px;
+    color: #ccc;
+    font-size: 16px;
     font-weight: normal;
+    cursor: pointer;
+}
+.periods_num s b:hover{
+    text-decoration: underline;
 }
 .query_details{
     float: right;
