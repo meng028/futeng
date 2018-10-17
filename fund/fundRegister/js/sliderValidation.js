@@ -21,6 +21,10 @@ $.fn.drag = function(options) {
                 handler.css({'left': _x});
                 drag_bg.css({'width': _x});
             } else if (_x > maxWidth) {  //鼠标指针移动距离达到最大时清空事件
+                $("#gradent").css({
+                    "-webkit-animation":"slidetounlocked 3s infinite",
+                    "color":"#fff"
+                });
                 dragOk();
             }
         }
@@ -37,8 +41,7 @@ $.fn.drag = function(options) {
     function dragOk() {
         handler.removeClass('handler_bg').addClass('handler_ok_bg');
         text.removeClass('slidetounlock').text('验证通过').css({'color':'#fff'});       //modify
-        // drag.css({'color': '#fff !important'});
-
+        text.css({"color":"#fff !importent"});
         handler.css({'left': maxWidth});                   // add
         drag_bg.css({'width': maxWidth});                  // add
 

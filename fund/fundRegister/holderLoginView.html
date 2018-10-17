@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./css/holderLoginStyle.css">
     <script type="text/javascript" src="../../js/jquery-3.3.1.js" ></script>
     <script type="text/javascript" src="js/sliderValidation.js"></script>
-    <script type="text/javascript" src="../../js/tab_change.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -23,7 +22,7 @@
             <div class="verify-area">
                 <span>
                     通行证号：
-                    <input type="text">
+                    <input type="text" autofocus>
                 </span>
                 <span>
                     &nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码 :&nbsp;
@@ -31,9 +30,9 @@
                 </span>
                 <span class="hua">
                     <s class="hua_text">滑块验证&nbsp：</s>
-                    <div id="drag">
+                    <div id="drag" onclick="test()" class="test">
                         <div class="drag_bg"></div>
-                        <div class="drag_text slidetounlock" onselectstart="return false;" unselectable="on">
+                        <div id="gradent" class="drag_text slidetounlock" onselectstart="return false;" unselectable="on">
                             请按住滑块，拖动到最右边
                         </div>
                         <div class="handler handler_bg"></div>
@@ -49,11 +48,9 @@
     </div>
     <script>
         $('#drag').drag();
-
         $('.operate_btn button').click(function(){
             $(this).addClass("operate_btn_click").siblings().removeClass("operate_btn_click");
         });
-
     </script>
 </body>
 </html>

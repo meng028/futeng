@@ -100,18 +100,15 @@
     width: 0;
 }
 #drag .drag_text{
+    width: 670px;
+    height: 38px;
     position: absolute;
     top: 0;
-    width: 670px;
-    color:#9c9c9c;
-    -moz-user-select: none;
-    -webkit-user-select: none;
+    left: 0;
+    color: #9c9c9c;
     user-select: none;
-    -o-user-select:none;
-    -ms-user-select:none;
     font-size: 12px;
     border: 1px solid #ECECEC;
-    box-sizing: border-box;+
 }
 .hua{
     line-height: 40px;
@@ -119,6 +116,36 @@
 .hua_text{
     float: left;
     text-decoration: none;
+}
+.test {
+    width: 428px;
+    height: 32px;
+    text-align: center;
+}
+#gradent {
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#4d4d4d),color-stop(.4,#4d4d4d),color-stop(.5,#fff),color-stop(.6,#4d4d4d),color-stop(1,#4d4d4d));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: slidetounlock 3s infinite;
+    -webkit-text-size-adjust: none;
+    display: inline-block;
+    width: 100%;
+}
+@keyframes slidetounlock {
+    0% {
+        background-position: -100px 0
+    }
+    100% {
+        background-position: 100px 0
+    }
+}
+@keyframes slidetounlocked {
+0% {
+    background-position: -200px 0
+}
+100% {
+    background-position: -200px 0
+}
 }
 .verify-area p{
     width: 670px;
