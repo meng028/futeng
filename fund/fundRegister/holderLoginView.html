@@ -22,11 +22,16 @@
             <div class="verify-area">
                 <span>
                     通行证号：
-                    <input type="text" autofocus>
+                    <input type="text" autofocus class=" pick_on">
+                    <i class="must_write">必须填写</i>
+                    <a class="lower_right_hint" href="./investorRegisterView.html">不是持有人？注册成为合格投资者</a>
                 </span>
+
                 <span>
                     &nbsp;&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码 :&nbsp;
                     <input type="password">
+                    <i class="must_write">必须填写</i>
+                    <a class="lower_right_hint">忘记密码</a>
                 </span>
                 <span class="hua">
                     <s class="hua_text">滑块验证&nbsp：</s>
@@ -42,14 +47,25 @@
             </div>
             <div class="operate_btn">
                 <button class="operate_btn_click fade-out">持有人登录</button>
-                <button class="fade-out">持有人未获得同行账号，在线申请</button>
+                <div>
+                    <a href="./submitInformationView.html">
+                        <button class="fade-out">持有人未获得同行账号，在线申请</button>
+                    </a>
+                    <a href="./directLoginView.html" class="lower_right_hint" style="width: 750px">已有注册账号，直接登录</a>
+                </div>
             </div>
         </div>
     </div>
     <script>
         $('#drag').drag();
-        $('.operate_btn button').click(function(){
+        $('.operate_btn > button').click(function(){
+            if ($('.verify-area input').val() ==""){
+                $(".must_write").css({"display":"block"});
+                alert("证件号码不能为空，请重新输入！");
+                $(".pick_on").focus()
+            }
             $(this).addClass("operate_btn_click").siblings().removeClass("operate_btn_click");
+            // alert("ok")
         });
     </script>
 </body>

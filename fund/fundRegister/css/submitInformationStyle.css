@@ -53,6 +53,7 @@ textarea{resize:none;}
     margin: 0 auto;
     font-size: 16px;
     color: #666;
+    position: relative;
 }
 .questionnaire i{
     font-style: normal;
@@ -94,4 +95,14 @@ textarea{resize:none;}
     cursor: pointer;
     margin: 22px 0 0 278px;
     background-color: #CC2124;
+}
+.must_write{
+    font-style: normal;
+    font-size: 14px;
+    color: #BE1E21;
+    margin-left: 3px;
+    /* display: none; */
+    position: absolute;
+    right: -63px;
+    top: 10px;
 }

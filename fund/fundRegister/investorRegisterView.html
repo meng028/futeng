@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>投资者风险调查问卷</title>
     <link rel="stylesheet" href="./css/investorRegisteStyle.css">
+    <script type="text/javascript" src="../../js/jquery-3.3.1.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -17,7 +18,7 @@
         合格投资者注册
     </div>
 
-    <div class="investor_register_content">
+    <div class="border_wrap">
         <div class="psq_notice">
             <h3>尊敬的客户：</h3>
             <p>
@@ -27,319 +28,340 @@
         </div>
 
         <div class="probe">
-            <i>客户类型：</i>
-            <span>
-                <div class="person" style="margin-left: 22px">
-                    <input id="person" type="radio" value="0" name="organ" checked="checked" style="width:15px;height:15px">
-                    <label for="person">个人</label>
+            <!--个人机构切换-->
+            <i class="client_type">客户类型：</i>
+            <div class="tab">
+                <div class="tab-menu">
+                    <ul>
+                        <li class="person " style="margin-left: 22px">
+                            <input id="person" type="radio" value="0" name="organ" checked="checked" style="width:15px;height:15px">
+                            <label for="person">个人</label>
+                        </li>
+                        <li class="person">
+                            <input id="organ" type="radio" value="1" name="organ" style="width:15px;height:15px">
+                            <label for="organ">机构</label>
+                        </li>
+                    </ul>
                 </div>
-                <div class="person">
-                    <input id="organ" type="radio" value="1" name="organ" style="width:15px;height:15px">
-                    <label for="organ">机构</label>
-                </div>
-            </span>
-        </div>
+                <h3 class="questionnaire_title">私募基金投资者风险问卷调查&nbsp;（个人版）</h3>
 
-        <!--投资者风险调查问卷-->
-        <h3 class="questionnaire_title">私募基金投资者风险问卷调查&nbsp;（个人版）</h3>
-        <div class="questionnaire">
-            <span>
-                <i>您的姓名&nbsp;：</i>
-                <input type="text">
-            </span>
-            <span>
-                <i>证件类型&nbsp;：</i>
-                <input type="text">
-            </span>
-            <span>
-                <i>证件号码&nbsp;：</i>
-                <input type="text">
-            </span>
-            <span>
-                <i>&nbsp;&nbsp;手&nbsp;机&nbsp;号&nbsp;：</i>
-                <input type="text">
-            </span>
-            <span>
-                <i>手机验证码：</i>
-                <input type="text">
-            </span>
-        </div>
-        <div class="select_out">
-            <div class="select">
-                <i>存在实际控制关系：</i>
-                <span>
-                    <div class="select_list">
-                        <input id="noControl" type="radio" value="2" name="genre" style="width:15px;height:15px" checked>
-                        <label for="noControl">否</label>
-                    </div>
-                    <div class="select_list">
-                        <input id="control" type="radio" value="3" name="genre" style="width:15px;height:15px">
-                         <label for="control">是</label>
-                    </div>
-                </span>
-            </div>
-            <div class="select">
-                <i>交易的实际受益人：</i>
-                <span>
-                    <div class="select_list">
-                        <input id="self" type="radio" value="4" name="self" style="width:15px;height:15px" checked>
-                        <label for="self">本人</label>
-                    </div>
-                    <div class="select_list">
-                        <input id="others" type="radio" value="5" name="self" style="width:15px;height:15px">
-                         <label for="others">他人</label>
-                    </div>
-                </span>
-            </div>
-            <div class="select">
-                <i>有不良诚信记录：</i>
-                <span>
-                    <div class="select_list">
-                        <input id="noRecord" type="radio" value="6" name="record" style="width:15px;height:15px" checked>
-                        <label for="noRecord">否</label>
-                    </div>
-                    <div class="select_list">
-                        <input id="record" type="radio" value="7" name="record" style="width:15px;height:15px">
-                         <label for="record">是</label>
-                    </div>
-                </span>
-            </div>
-        </div>
+                <div class="tab-box" style="width: 770px">
+                    <!--个人版问卷-->
+                    <div class="questionnaire">
+                        <!--提示以上-->
+                        <div class="questionnaire_top">
+                            <!--提示以上输入框-->
+                            <ul class="questionnaire_top_input">
+                                <li>
+                                    <s>您的姓名：</s>
+                                    <input type="text">
+                                </li>
+                                <li>
+                                    <s>证件类型：</s>
+                                    <input type="text">
+                                </li>
+                                <li>
+                                    <s>证件号码：</s>
+                                    <input type="text">
+                                </li>
+                                <li>
+                                    <s>手机号：</s>
+                                    <input type="tel">
+                                </li>
+                            </ul>
+                            <!--提示以上单选框-->
+                            <ul class="questionnaire_top_radio">
+                            <span class="radio_option_list">
+                                <s>存在实际控制关系：</s>
+                                <li class="radio_option">
+                                    <input id="noExist" type="radio" value="" name="exist" checked="checked" style="width:15px;height:15px">
+                                    <label for="noExist">否</label>
+                                </li>
+                                <li class="radio_option">
+                                    <input id="exist" type="radio" value="" name="exist" style="width:15px;height:15px">
+                                    <label for="exist">是</label>
+                                </li>
+                            </span>
+                                <span class="radio_option_list">
+                                <s>交易的实际受益人：</s>
+                                <li class="radio_option">
+                                    <input id="self" type="radio" value="" name="benefit" checked="checked" style="width:15px;height:15px">
+                                    <label for="self">本人</label>
+                                </li>
+                                <li class="radio_option">
+                                    <input id="others" type="radio" value="" name="benefit" style="width:15px;height:15px">
+                                    <label for="others">他人</label>
+                                </li>
+                            </span>
+                                <span class="radio_option_list">
+                                <s>有不良诚信记录：</s>
+                                <li class="radio_option">
+                                    <input id="noRecord" type="radio" value="" name="record" checked="checked" style="width:15px;height:15px">
+                                    <label for="noRecord">否</label>
+                                </li>
+                                <li class="radio_option">
+                                    <input id="record" type="radio" value="" name="record" style="width:15px;height:15px">
+                                    <label for="record">是</label>
+                                </li>
+                            </span>
+                            </ul>
+                        </div>
+                        <h3 class="pledge_title">本人保证资金来源的合法性和所提供资料的真实性、有效性、准确性、完整性，并对其承担责任。</h3>
+                        <div class="pledge_hint">
+                            <p>
+                                本人同意以下提示:<br>
+                                &nbsp; &nbsp;风险提示：基金投资需承担各类风险，本金可能遭受损失。同时，还要考虑市场风险、信用风险、流动风险、操作风险等各
+                                类投资风险。您在基金认购过程中应当注意审核对自己的风险识别和风险承受能力，选择与自己风险识别能力和风险承受能
+                                力相匹配的私募基金。
+                            </p>
+                            <p>
+                                首先，本人确认是以下情况之一的合格投资者：<br>
+                                &nbsp; &nbsp;1.金融资金不低于300万元（金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险
+                                产品、期货权益等）<br>
+                                &nbsp; &nbsp;2.最近三年个人年均收入不低于50万元<br>
+                                &nbsp; &nbsp;3.投资于所管理私募基金的私募基金管理人得的从业人员
+                            </p>
+                        </div>
 
-        <h4 class="guarantee">本人保证资金来源的合法性和所提供资料的真实性、有效性、准确性、完整性、并对其承担责任。</h4>
+                        <!--提示以下-->
+                        <div class="particular_survey">
+                            <div class="survey_box">
+                                <div class="survey_title">1、您的年龄介于</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="ageA" type="radio" value="8" name="age" style="width:15px;height:15px" checked>
+                                        <label for="ageA">A、18—30岁</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="ageB" type="radio" value="9" name="age" style="width:15px;height:15px">
+                                        <label for="ageB">B、31—50岁</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="ageC" type="radio" value="10" name="age" style="width:15px;height:15px">
+                                        <label for="ageC">C、51—65岁</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="ageD" type="radio" value="11" name="age" style="width:15px;height:15px">
+                                        <label for="ageD">D、65岁以上</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">2、您的学历</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="eduA" type="radio" value="" name="edu" style="width:15px;height:15px" checked>
+                                        <label for="eduA">A、高中及以下</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="eduB" type="radio" value="" name="edu" style="width:15px;height:15px">
+                                        <label for="eduB">B、中专及大专</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="eduC" type="radio" value="" name="edu" style="width:15px;height:15px">
+                                        <label for="eduC">C、本科</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="eduD" type="radio" value="" name="edu" style="width:15px;height:15px">
+                                        <label for="eduD">D、硕士及以上</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">3、您的职业为</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="jobA" type="radio" value="" name="job" style="width:15px;height:15px" checked>
+                                        <label for="jobA">A、无固定职业</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="jobB" type="radio" value="" name="job" style="width:15px;height:15px">
+                                        <label for="jobB">B、专业技术人员</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="jobC" type="radio" value="" name="job" style="width:15px;height:15px">
+                                        <label for="jobC">C、一般企事业单位员工</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="jobD" type="radio" value="" name="job" style="width:15px;height:15px">
+                                        <label for="jobD">D、金融行业一般从事人员</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">4、您的金融资产为（不含房产、汽车等固定资产）</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="assetA" type="radio" value="" name="asset" style="width:15px;height:15px" checked>
+                                        <label for="assetA">A、300万元以下</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="assetB" type="radio" value="" name="asset" style="width:15px;height:15px">
+                                        <label for="assetB">B、300-500万元</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="assetC" type="radio" value="" name="asset" style="width:15px;height:15px">
+                                        <label for="assetC">C、500-1000万元</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="assetD" type="radio" value="" name="asset" style="width:15px;height:15px">
+                                        <label for="assetD">D、一千万元以上</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">5、您最近三年个人平均收入为？</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="incomeA" type="radio" value="" name="income" style="width:15px;height:15px" checked>
+                                        <label for="incomeA">A、50万元以下</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="incomeB" type="radio" value="" name="income" style="width:15px;height:15px">
+                                        <label for="incomeB">B、50-100万元</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="incomeC" type="radio" value="" name="income" style="width:15px;height:15px">
+                                        <label for="incomeC">C、100-300万元</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="incomeD" type="radio" value="" name="income" style="width:15px;height:15px">
+                                        <label for="incomeD">D、300万元以上</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">6、您的主要收入来源是</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="originA" type="radio" value="" name="origin" style="width:15px;height:15px" checked>
+                                        <label for="originA">A、无固定收入</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="originB" type="radio" value="" name="origin" style="width:15px;height:15px">
+                                        <label for="originB">B、工资、劳务报酬</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="originC" type="radio" value="" name="origin" style="width:15px;height:15px">
+                                        <label for="originC">C、生产经营所得</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="originD" type="radio" value="" name="origin" style="width:15px;height:15px">
+                                        <label for="originD">D、利息、股息、转让等金融性资产收入</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">7、您的家庭可支配年收入为？</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="governA" type="radio" value="" name="govern" style="width:15px;height:15px" checked>
+                                        <label for="governA">A、50万元以下</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="governB" type="radio" value="" name="govern" style="width:15px;height:15px">
+                                        <label for="governB">B、50-100万元</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="governC" type="radio" value="" name="govern" style="width:15px;height:15px">
+                                        <label for="governC">C、100-500万元</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="governD" type="radio" value="" name="govern" style="width:15px;height:15px">
+                                        <label for="governD">D、500万元以上</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">8、您每年可支配收入中，可用于金融投资（储蓄存款除外）的比例为？</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="ratioA" type="radio" value="" name="ratio" style="width:15px;height:15px" checked>
+                                        <label for="ratioA">A、小于10%</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="ratioB" type="radio" value="" name="ratio" style="width:15px;height:15px">
+                                        <label for="ratioB">B、10%-25%</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="ratioC" type="radio" value="" name="ratio" style="width:15px;height:15px">
+                                        <label for="ratioC">C、25%-50%</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="ratioD" type="radio" value="" name="ratio" style="width:15px;height:15px">
+                                        <label for="ratioD">D、大于50%</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">9.您是否有尚未清偿的数额较大的债务，如有其性质是？</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="natureA" type="radio" value="" name="nature" style="width:15px;height:15px" checked>
+                                        <label for="natureA">A、有，住房抵押贷款等长期定额债务</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="natureB" type="radio" value="" name="nature" style="width:15px;height:15px">
+                                        <label for="natureB">B、有，亲戚朋友借款</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="natureC" type="radio" value="" name="nature" style="width:15px;height:15px">
+                                        <label for="natureC">C、有，引用卡欠款、消费信贷等短期信用债务</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="natureD" type="radio" value="" name="nature" style="width:15px;height:15px">
+                                        <label for="natureD">D、没有</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey_box">
+                                <div class="survey_title">10、您的投资知识可描述为：</div>
+                                <div class="survey_option">
+                                    <div class="survey_option_list">
+                                        <input id="depictA" type="radio" value="" name="depict" style="width:15px;height:15px" checked>
+                                        <label for="depictA">A、有限：基本没有金融产品方面的知识</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="depictB" type="radio" value="" name="depict" style="width:15px;height:15px">
+                                        <label for="depictB">B、一般：对金融产品及其相关风险具有基本的知识和理解</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="depictC" type="radio" value="" name="depict" style="width:15px;height:15px">
+                                        <label for="depictC">C、丰富：对金融产品及其相关风险具有丰富的知识和理解</label>
+                                    </div>
+                                    <div class="survey_option_list">
+                                        <input id="depictD" type="radio" value="" name="depict" style="width:15px;height:15px">
+                                        <label for="depictD">D、没大于50%</label>
+                                    </div>
+                                </div>
+                            </div>
 
-        <div class="hint">
-            <p>
-                本人同意以下提示:<br>
-                &nbsp; &nbsp;风险提示：基金投资需承担各类风险，本金可能遭受损失。同时，还要考虑市场风险、信用风险、流动风险、操作风险等各
-                类投资风险。您在基金认购过程中应当注意审核对自己的风险识别和风险承受能力，选择与自己风险识别能力和风险承受能
-                力相匹配的私募基金。
-            </p>
-            <p>
-                首先，本人确认是以下情况之一的合格投资者：<br>
-                &nbsp; &nbsp;金融资金不低于300万元（金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险
-                产品、期货权益等）<br>
-                &nbsp; &nbsp;最近三年个人年均收入不低于50万元<br>
-                &nbsp; &nbsp;投资于所管理私募基金的私募基金管理人得的从业人员
-            </p>
-        </div>
+                        </div>
+                    </div>
 
-        <div class="particular_survey">
-            <div class="survey_box">
-                <div class="survey_title">1、您的年龄介于</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="ageA" type="radio" value="8" name="age" style="width:15px;height:15px" checked>
-                        <label for="ageA">A、18—30岁</label>
+                    <!--机构版问卷-->
+                    <div>
+                        456
                     </div>
-                    <div class="survey_option_list">
-                        <input id="ageB" type="radio" value="9" name="age" style="width:15px;height:15px">
-                        <label for="ageB">B、31—50岁</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="ageC" type="radio" value="10" name="age" style="width:15px;height:15px">
-                        <label for="ageC">C、51—65岁</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="ageD" type="radio" value="11" name="age" style="width:15px;height:15px">
-                        <label for="ageD">D、65岁以上</label>
+                    <div>
+                        44444444444
                     </div>
                 </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">2、您的学历</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="eduA" type="radio" value="" name="edu" style="width:15px;height:15px" checked>
-                        <label for="eduA">A、高中及以下</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="eduB" type="radio" value="" name="edu" style="width:15px;height:15px">
-                        <label for="eduB">B、中专及大专</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="eduC" type="radio" value="" name="edu" style="width:15px;height:15px">
-                        <label for="eduC">C、本科</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="eduD" type="radio" value="" name="edu" style="width:15px;height:15px">
-                        <label for="eduD">D、硕士及以上</label>
-                    </div>
+                <div class="questionnaire_submit">
+                    <button>提交</button>
                 </div>
             </div>
-            <div class="survey_box">
-                <div class="survey_title">3、您的职业为</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="jobA" type="radio" value="" name="job" style="width:15px;height:15px" checked>
-                        <label for="jobA">A、无固定职业</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="jobB" type="radio" value="" name="job" style="width:15px;height:15px">
-                        <label for="jobB">B、专业技术人员</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="jobC" type="radio" value="" name="job" style="width:15px;height:15px">
-                        <label for="jobC">C、一般企事业单位员工</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="jobD" type="radio" value="" name="job" style="width:15px;height:15px">
-                        <label for="jobD">D、金融行业一般从事人员</label>
-                    </div>
-                </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">4、您的金融资产为（不含房产、汽车等固定资产）</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="assetA" type="radio" value="" name="asset" style="width:15px;height:15px" checked>
-                        <label for="assetA">A、300万元以下</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="assetB" type="radio" value="" name="asset" style="width:15px;height:15px">
-                        <label for="assetB">B、300-500万元</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="assetC" type="radio" value="" name="asset" style="width:15px;height:15px">
-                        <label for="assetC">C、500-1000万元</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="assetD" type="radio" value="" name="asset" style="width:15px;height:15px">
-                        <label for="assetD">D、一千万元以上</label>
-                    </div>
-                </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">5、您最近三年个人平均收入为？</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="incomeA" type="radio" value="" name="income" style="width:15px;height:15px" checked>
-                        <label for="incomeA">A、50万元以下</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="incomeB" type="radio" value="" name="income" style="width:15px;height:15px">
-                        <label for="incomeB">B、50-100万元</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="incomeC" type="radio" value="" name="income" style="width:15px;height:15px">
-                        <label for="incomeC">C、100-300万元</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="incomeD" type="radio" value="" name="income" style="width:15px;height:15px">
-                        <label for="incomeD">D、300万元以上</label>
-                    </div>
-                </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">6、您的主要收入来源是</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="originA" type="radio" value="" name="origin" style="width:15px;height:15px" checked>
-                        <label for="originA">A、无固定收入</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="originB" type="radio" value="" name="origin" style="width:15px;height:15px">
-                        <label for="originB">B、工资、劳务报酬</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="originC" type="radio" value="" name="origin" style="width:15px;height:15px">
-                        <label for="originC">C、生产经营所得</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="originD" type="radio" value="" name="origin" style="width:15px;height:15px">
-                        <label for="originD">D、利息、股息、转让等金融性资产收入</label>
-                    </div>
-                </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">7、您的家庭可支配年收入为？</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="governA" type="radio" value="" name="govern" style="width:15px;height:15px" checked>
-                        <label for="governA">A、50万元以下</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="governB" type="radio" value="" name="govern" style="width:15px;height:15px">
-                        <label for="governB">B、50-100万元</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="governC" type="radio" value="" name="govern" style="width:15px;height:15px">
-                        <label for="governC">C、100-500万元</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="governD" type="radio" value="" name="govern" style="width:15px;height:15px">
-                        <label for="governD">D、500万元以上</label>
-                    </div>
-                </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">8、您每年可支配收入中，可用于金融投资（储蓄存款除外）的比例为？</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="ratioA" type="radio" value="" name="ratio" style="width:15px;height:15px" checked>
-                        <label for="ratioA">A、小于10%</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="ratioB" type="radio" value="" name="ratio" style="width:15px;height:15px">
-                        <label for="ratioB">B、10%-25%</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="ratioC" type="radio" value="" name="ratio" style="width:15px;height:15px">
-                        <label for="ratioC">C、25%-50%</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="ratioD" type="radio" value="" name="ratio" style="width:15px;height:15px">
-                        <label for="ratioD">D、大于50%</label>
-                    </div>
-                </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">9.您是否有尚未清偿的数额较大的债务，如有其性质是？</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="natureA" type="radio" value="" name="nature" style="width:15px;height:15px" checked>
-                        <label for="natureA">A、有，住房抵押贷款等长期定额债务</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="natureB" type="radio" value="" name="nature" style="width:15px;height:15px">
-                        <label for="natureB">B、有，亲戚朋友借款</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="natureC" type="radio" value="" name="nature" style="width:15px;height:15px">
-                        <label for="natureC">C、有，引用卡欠款、消费信贷等短期信用债务</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="natureD" type="radio" value="" name="nature" style="width:15px;height:15px">
-                        <label for="natureD">D、没有</label>
-                    </div>
-                </div>
-            </div>
-            <div class="survey_box">
-                <div class="survey_title">10、您的投资知识可描述为：</div>
-                <div class="survey_option">
-                    <div class="survey_option_list">
-                        <input id="depictA" type="radio" value="" name="depict" style="width:15px;height:15px" checked>
-                        <label for="depictA">A、有限：基本没有金融产品方面的知识</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="depictB" type="radio" value="" name="depict" style="width:15px;height:15px">
-                        <label for="depictB">B、一般：对金融产品及其相关风险具有基本的知识和理解</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="depictC" type="radio" value="" name="depict" style="width:15px;height:15px">
-                        <label for="depictC">C、丰富：对金融产品及其相关风险具有丰富的知识和理解</label>
-                    </div>
-                    <div class="survey_option_list">
-                        <input id="depictD" type="radio" value="" name="depict" style="width:15px;height:15px">
-                        <label for="depictD">D、没大于50%</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="questionnaire_submit">
-            <button>提交</button>
         </div>
     </div>
 </div>
+<script>
+    $().ready(function () {
+        $(".tab-menu li").click(function () {
+            var _index = $(this).index();
+            $(".tab-box > div").eq(_index).show().siblings().hide();
+            $(this).addClass("change").siblings().removeClass("change");
+        });
+    });
+</script>
 </body>
 </html>

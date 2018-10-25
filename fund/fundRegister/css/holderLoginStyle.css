@@ -68,6 +68,28 @@
     background-color: #F7F7F7;
     border: 1px solid #ECECEC;
 }
+.lower_right_hint{
+    width: 610px;
+    font-size: 14px;
+    color: #1f36a3;
+    text-align: right;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+.must_write{
+    font-style: normal;
+    font-size: 14px;
+    color: #BE1E21;
+    margin-left: 3px;
+    display: none;
+    position: absolute;
+    right: 70px;
+    top: 9px;
+}
 /*滑块验证css*/
 #drag{
     position: relative;
@@ -149,16 +171,19 @@
 }
 .verify-area p{
     width: 670px;
-    margin: -30px 0 0 90px;
+    margin: -10px 0 0 90px;
     font-size: 14px;
     color: #8a8a8a;
+}
+.verify-area span{
+    position: relative;
 }
 .drag_text{
     height:40px;
 }
 .operate_btn{
     width: 760px;
-    height: 150px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

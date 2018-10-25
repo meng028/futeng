@@ -13,7 +13,7 @@ function selectFn(parent,index,judge){
 function selectStyle(children,index){
     children.eq(index).addClass("change").siblings().removeClass("change").addClass("fade-out");
 }
-//   first 轮播
+//   first 选项卡
 let firstIndex=0;
 $('.first-tab-menu ul li').click(function(){
     firstIndex=$(this).index();
@@ -41,7 +41,7 @@ $(".section_table .content").click(function(){
     selectFn($('.first-tab-box'),firstIndex,true);
     selectStyle($('.first-tab-menu li'),firstIndex);
 });
-//  second 轮播
+//  second 选项卡
 let secondIndex=0;
 $('.second-tab-menu ul li').click(function(){
     secondIndex=$(this).index();
@@ -69,7 +69,7 @@ $(".section_table .content").click(function(){
     selectFn($('.second-tab-box'),secondIndex,true);
     selectStyle($('.second-tab-menu li'),secondIndex);
 });
-//  third 轮播
+//  third 选项卡
 let thirdIndex=0;
 $('.third-tab-menu ul li').click(function(){
     thirdIndex=$(this).index();
@@ -97,7 +97,7 @@ $(".section_table .content").click(function(){
     selectFn($('.third-tab-box'),thirdIndex,true);
     selectStyle($('.third-tab-menu li'),thirdIndex);
 });
-//  fourth 轮播
+//  fourth 选项卡
 let fourthIndex=0;
 $('.fourth-tab-menu ul li').click(function(){
     fourthIndex=$(this).index();
@@ -125,7 +125,7 @@ $(".section_table .content").click(function(){
     selectFn($('.fourth-tab-box'),fourthIndex,true);
     selectStyle($('.fourth-tab-menu li'),fourthIndex);
 });
-// fifth 轮播
+// fifth 选项卡
 let fifthIndex=0;
 $('.fifth-tab-menu ul li').click(function(){
     fifthIndex=$(this).index();

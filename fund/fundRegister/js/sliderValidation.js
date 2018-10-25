@@ -40,14 +40,13 @@ $.fn.drag = function(options) {
     //清空事件
     function dragOk() {
         handler.removeClass('handler_bg').addClass('handler_ok_bg');
-        text.removeClass('slidetounlock').text('验证通过').css({'color':'#fff'});       //modify
+        text.removeClass('slidetounlock').text('验证通过').css({'color':'#fff'});
         text.css({"color":"#fff !importent"});
-        handler.css({'left': maxWidth});                   // add
-        drag_bg.css({'width': maxWidth});                  // add
+        handler.css({'left': maxWidth});
+        drag_bg.css({'width': maxWidth});
 
         handler.unbind('mousedown');
         $(document).unbind('mousemove');
         $(document).unbind('mouseup');
-
     }
 };
